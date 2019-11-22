@@ -1,3 +1,35 @@
 body {
     background-color: aqua;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: bold;
 }

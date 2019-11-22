@@ -1,12 +1,44 @@
 title: Default Page
 preset: page
 fields:
-  text:
-    label: Text
+  title_1:
+    label: title_1
+    type: textarea
+    size: small
+  wat:
+    label: wat
     type: textarea
     size: large
-  nieuw:
-    label: Hallo
+  usp1:
+    label: usp1
     type: textarea
-    size: large
+    size: small
+  usp2:
+    label: usp2
+    type: textarea
+    size: small
+  usp3:
+    label: usp3
+    type: textarea
+    size: small
+  title_2:
+    label: title_2
+    type: textarea
+    size: small
+  wanneer_1:
+    label: wanneer_1
+    type: textarea
+    size: small
+  wanneer_2:
+    label: wanneer_2
+    type: textarea
+    size: small
+  wanneer_3:
+    label: wanneer_3
+    type: textarea
+    size: small
+  title_verloop:
+    label: title_verloop
+    type: textarea
+    size: small
 
