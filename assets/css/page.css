@@ -1,6 +1,6 @@
 body {
-    background-color: aqua;
-    font-family: Roboto;
+    background-color: rgb(251, 251, 251);
+    font-family: Roboto, sans-serif;
     font-size: 16px;
 }
 
@@ -26,10 +26,53 @@ h4 {
 
 h5 {
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h6 {
     font-size: 20px;
     font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+.margin {
+    margin-top: 150px;
+}
+
+.jumbotron {
+    background-color: #EDE7F6;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #EDE7F6;
+}
+
+.flex {
+    display: flex;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 3, 4, 4, 4;
+}
+
+.card-header {
+    background-color: #ffffff;
+    height: 70px;
+}
+
+.card-header a {
+    color: #000000;
 }

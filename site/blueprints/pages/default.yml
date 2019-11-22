@@ -41,4 +41,43 @@ fields:
     label: title_verloop
     type: textarea
     size: small
-
+  maandag:
+    label: maandag
+    type: textarea
+    size: small
+  dinsdag:
+    label: dinsdag
+    type: textarea
+    size: small
+  woensdag:
+    label: woensdag
+    type: textarea
+    size: small
+  donderdag:
+    label: donderdag
+    type: textarea
+    size: small
+  vrijdag:
+    label: vrijdag
+    type: textarea
+    size: small
+  maandag_description:
+    label: maandag_description
+    type: textarea
+    size: small
+  dinsdag_description:
+    label: dinsdag_description
+    type: textarea
+    size: small
+  woensdag_description:
+    label: woensdag_description
+    type: textarea
+    size: small
+  donderdag_description:
+    label: donderdag_description
+    type: textarea
+    size: small
+  vrijdag_description:
+    label: vrijdag_description
+    type: textarea
+    size: small

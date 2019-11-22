@@ -13,38 +13,38 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container margin">
       <div class="row">
-        <div class="col">
-          <h3><?= $page->title_1() ?></h3>
+        <div class="col-6" style="padding-right: 50px;">
+          <h5><?= $page->title_1() ?></h5>
           <p><?= $page->wat()->kirbytext() ?></p>
         </div>
-        <div class="col">
+        <div class="col-6">
           <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
         </div>
       </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid margin">
       <div class="container">
         <div class="row">
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h5><?= $page->usp3() ?></h5>
+            <h6><?= $page->usp1() ?></h6>
           </div>
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h5><?= $page->usp3() ?></h5>
+            <h6><?= $page->usp2() ?></h6>
           </div>
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h5><?= $page->usp3() ?></h5>
+            <h6><?= $page->usp3() ?></h6>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container margin">
       <div class="row">
         <div class="col">
           <h5><?= $page->title_2() ?></h5>
@@ -60,183 +60,118 @@
       </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h5><?= $page->title_verloop() ?></h5>
+      <div class="hero">
+        <div class="container margin flex">
+          <div class="hero-left margin">
+            <div class="col">
+              <h5><?= $page->title_verloop() ?></h5>
+            </div>
           </div>
-          <div class="col">
-            <!--Accordion wrapper-->
-            <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
+          <div class="hero-right margin">
+            <div class="col jumbotron_rechts">
+              <!--Accordion wrapper-->
+              <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
 
-            <!-- Accordion card -->
-            <div class="card">
+              <!-- Accordion card -->
+              <div class="card rounded shadow-sm">
 
-              <!-- Card header -->
-              <div class="card-header z-depth-1 teal lighten-4" role="tab" id="heading10">
-                <a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
-                  aria-controls="collapse10">
-                  <h4 class="mb-0 black-text text-center">
-                    First title
-                  </h4>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et.</p>
-
-                  <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                    accusamus labore.</p>
+                <!-- Card header -->
+                <div class="card-header z-depth-1" role="tab" id="heading10">
+                  <a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
+                    aria-controls="collapse10">
+                    <h6 class="mb-0"><?= $page->maandag () ?></h6>
+                  </a>
+                </div>
+                <!-- Card body -->
+                <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
+                  data-parent="#accordionEx2">
+                  <div class="card-body rgba-teal-strong white-text">
+                    <p><?= $page->maandag_description () ?></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Accordion card -->
 
-            <!-- Accordion card -->
-            <div class="card">
+              <!-- Accordion card -->
+              <div class="card rounded shadow-sm">
 
-              <!-- Card header -->
-              <div class="card-header z-depth-1 teal lighten-3" role="tab" id="heading11">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11"
-                  aria-expanded="false" aria-controls="collapse11">
-                  <h4 class="mb-0 black-text text-center">
-                    Second title
-                  </h4>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et.</p>
-
-                  <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                    accusamus labore.</p>
+                <!-- Card header -->
+                <div class="card-header z-depth-1" role="tab" id="heading11">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11"
+                    aria-expanded="false" aria-controls="collapse11">
+                    <h6 class="mb-0"><?= $page->dinsdag () ?></h6>
+                  </a>
+                </div>
+                <!-- Card body -->
+                <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
+                  data-parent="#accordionEx2">
+                  <div class="card-body rgba-teal-strong white-text">
+                    <p><?= $page->dinsdag_description () ?></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Accordion card -->
 
-            <!-- Accordion card -->
-            <div class="card">
+              <!-- Accordion card -->
+              <div class="card rounded shadow-sm">
 
-              <!-- Card header -->
-              <div class="card-header z-depth-1 teal lighten-2" role="tab" id="heading12">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12"
-                  aria-expanded="false" aria-controls="collapse12">
-                  <h4 class="mb-0 black-text text-center">
-                    Third title
-                  </h4>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et.</p>
-
-                  <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                    accusamus labore.</p>
+                <!-- Card header -->
+                <div class="card-header z-depth-1" role="tab" id="heading12">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12"
+                    aria-expanded="false" aria-controls="collapse12">
+                    <h6 class="mb-0"><?= $page->woensdag () ?></h6>
+                  </a>
+                </div>
+                <!-- Card body -->
+                <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
+                  data-parent="#accordionEx2">
+                  <div class="card-body rgba-teal-strong white-text">
+                    <p><?= $page->woensdag_description () ?></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Accordion card -->
 
-            <!-- Accordion card -->
-            <div class="card">
+              <!-- Accordion card -->
+              <div class="card rounded shadow-sm">
 
-              <!-- Card header -->
-              <div class="card-header z-depth-1 teal lighten-1" role="tab" id="heading13">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13"
-                  aria-expanded="true" aria-controls="collapse13">
-                  <h4 class="mb-0 black-text text-center">
-                    Fourth title
-                  </h4>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et.</p>
-
-                  <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                    accusamus labore.</p>
+                <!-- Card header -->
+                <div class="card-header z-depth-1" role="tab" id="heading13">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13"
+                    aria-expanded="true" aria-controls="collapse13">
+                    <h6 class="mb-0"><?= $page->donderdag () ?></h6>
+                  </a>
+                </div>
+                <!-- Card body -->
+                <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
+                  data-parent="#accordionEx2">
+                  <div class="card-body rgba-teal-strong white-text">
+                    <p><?= $page->donderdag_description () ?></p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Accordion card -->
 
-            <!-- Accordion card -->
-            <div class="card">
+              <!-- Accordion card -->
+              <div class="card rounded shadow-sm">
 
-              <!-- Card header -->
-              <div class="card-header z-depth-1 teal" role="tab" id="heading14">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14"
-                  aria-expanded="false" aria-controls="collapse14">
-                  <h4 class="mb-0 black-text text-center">
-                    Fifth title
-                  </h4>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et.</p>
-
-                  <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                    accusamus labore.</p>
+                <!-- Card header -->
+                <div class="card-header z-depth-1" role="tab" id="heading14">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14"
+                    aria-expanded="false" aria-controls="collapse14">
+                    <h6 class="mb-0"><?= $page->vrijdag () ?></h6>
+                  </a>
+                </div>
+                <!-- Card body -->
+                <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
+                  data-parent="#accordionEx2">
+                  <div class="card-body rgba-teal-strong white-text">
+                    <p><?= $page->vrijdag_description () ?></p>
+                  </div>
                 </div>
               </div>
+              </div>
+              <!--/.Accordion wrapper-->
             </div>
-            <!-- Accordion card -->
-            </div>
-            <!--/.Accordion wrapper-->
           </div>
         </div>
       </div>
-    </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

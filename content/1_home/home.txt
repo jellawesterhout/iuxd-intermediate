@@ -46,6 +46,46 @@ Title-verloop: Hoe verloopt een Google Design Sprint?
 
 ----
 
+Maandag: Maandag
+
+----
+
+Dinsdag: Dinsdag
+
+----
+
+Woensdag: Woensdag
+
+----
+
+Donderdag: Donderdag
+
+----
+
+Vrijdag: Vrijdag
+
+----
+
+Maandag-description: Het vraagstuk, de doelgroep, de competitie, etc, verkennen en een succesfactor formuleren.
+
+----
+
+Dinsdag-description: Zoveel mogelijk innovatieve ideeën/oplossingen op papier schetsen met behulp van creatieve technieken.
+
+----
+
+Woensdag-description: Ideeën tegen elkaar afwegen en een concept kiezen.
+
+----
+
+Donderdag-description: Ontwerpen en een high-fidelity, testbaar, interactief prototype maken.
+
+----
+
+Vrijdag-description: Het prototype testen met 5 á 6 eindgebruikers.
+
+----
+
 Wanneer: Dit is checklist puntje 1
 
 ----
