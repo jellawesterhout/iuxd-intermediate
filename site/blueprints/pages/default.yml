@@ -5,4 +5,8 @@ fields:
     label: Text
     type: textarea
     size: large
+  nieuw:
+    label: Hallo
+    type: textarea
+    size: large
 

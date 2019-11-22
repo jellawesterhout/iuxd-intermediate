@@ -1,9 +1,13 @@
-Title: My Awesome IUXD Topic
+Title: Design Sprints
 
 ----
 
 Text:
 
-Hi IUXD Student, this is the IUXD-Intermediate Template Repository.
+Hi IUXD Student, this is the Design Sprints Repository.
 
 As you can see Kirby and Bootstrap have been provided. Good luck with realising the 0.1 one pager!
+
+----
+
+Nieuw: Is dit bijgewerkt?

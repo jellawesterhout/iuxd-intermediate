@@ -7,13 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/page.css">
 
     <title><?= $page->title() ?></title>
   </head>
+
   <body>
     <h1><?= $page->title() ?></h1>
 
     <p><?= $page->text()->kirbytext() ?></p>
+
+    <div class="container">
+      <div class="row">
+        <h1><?= $page->title() ?></h1>
+        <p><?= $page->nieuw()->kirbytext() ?></p>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
