@@ -20,7 +20,7 @@
           <p><?= $page->wat()->kirbytext() ?></p>
         </div>
         <div class="col-6">
-          <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
+          <img src="assets/images/img1.png" style="width: 100%;"/>
         </div>
       </div>
     </div>
@@ -30,15 +30,15 @@
         <div class="row">
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6><?= $page->usp1() ?></h6>
+            <h6 class="text-center"><?= $page->usp1() ?></h6>
           </div>
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6><?= $page->usp2() ?></h6>
+            <h6 class="text-center"><?= $page->usp2() ?></h6>
           </div>
           <div class="col-4">
             <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6><?= $page->usp3() ?></h6>
+            <h6 class="text-center"><?= $page->usp3() ?></h6>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
 
     <div class="container margin">
       <div class="row">
-        <div class="col">
+        <div class="col-6">
           <h5><?= $page->title_2() ?></h5>
           <ul>
             <li><?= $page->wanneer_1() ?></li>
@@ -54,7 +54,7 @@
             <li><?= $page->wanneer_3() ?></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-6">
           <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
         </div>
       </div>
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="hero-right margin">
-            <div class="col jumbotron_rechts">
+            <div class="col-md-12 offset-md-1">
               <!--Accordion wrapper-->
               <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
 
@@ -77,10 +77,8 @@
 
                 <!-- Card header -->
                 <div class="card-header z-depth-1" role="tab" id="heading10">
-                  <a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
-                    aria-controls="collapse10">
-                    <h6 class="mb-0"><?= $page->maandag () ?></h6>
-                  </a>
+                  <h6 id="underline1"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
+                  aria-controls="collapse10"><?= $page->maandag () ?></a></span></h6>
                 </div>
                 <!-- Card body -->
                 <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
@@ -96,10 +94,8 @@
 
                 <!-- Card header -->
                 <div class="card-header z-depth-1" role="tab" id="heading11">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11"
-                    aria-expanded="false" aria-controls="collapse11">
-                    <h6 class="mb-0"><?= $page->dinsdag () ?></h6>
-                  </a>
+                  <h6 id="underline2"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11" aria-expanded="false"
+                  aria-controls="collapse11"><?= $page->dinsdag () ?></a></span></h6>
                 </div>
                 <!-- Card body -->
                 <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
@@ -115,10 +111,8 @@
 
                 <!-- Card header -->
                 <div class="card-header z-depth-1" role="tab" id="heading12">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12"
-                    aria-expanded="false" aria-controls="collapse12">
-                    <h6 class="mb-0"><?= $page->woensdag () ?></h6>
-                  </a>
+                  <h6 id="underline3"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12" aria-expanded="false"
+                  aria-controls="collapse12"><?= $page->woensdag () ?></a></span></h6>
                 </div>
                 <!-- Card body -->
                 <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
@@ -134,10 +128,8 @@
 
                 <!-- Card header -->
                 <div class="card-header z-depth-1" role="tab" id="heading13">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13"
-                    aria-expanded="true" aria-controls="collapse13">
-                    <h6 class="mb-0"><?= $page->donderdag () ?></h6>
-                  </a>
+                  <h6 id="underline4"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13" aria-expanded="false"
+                  aria-controls="collapse13"><?= $page->donderdag () ?></a></span></h6>
                 </div>
                 <!-- Card body -->
                 <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
@@ -153,10 +145,8 @@
 
                 <!-- Card header -->
                 <div class="card-header z-depth-1" role="tab" id="heading14">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14"
-                    aria-expanded="false" aria-controls="collapse14">
-                    <h6 class="mb-0"><?= $page->vrijdag () ?></h6>
-                  </a>
+                  <h6 id="underline5"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14" aria-expanded="false"
+                  aria-controls="collapse14"><?= $page->vrijdag () ?></a></span></h6>
                 </div>
                 <!-- Card body -->
                 <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"

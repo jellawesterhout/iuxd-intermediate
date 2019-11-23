@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.otf) format("opentype");
+    src: url(../fonts/Gilroy-Regular.otf) format("opentype");
+    src: url(../fonts/Gilroy-Medium.otf) format("opentype");
+    src: url(../fonts/Gilroy-Bold.ttf) format("truetype");
+    src: url(../fonts/Gilroy-ExtraBold.otf) format("opentype");
+    }
+
 body {
     background-color: rgb(251, 251, 251);
-    font-family: Roboto, sans-serif;
+    font-family: Gilroy, sans-serif;
     font-size: 16px;
 }
 
@@ -25,17 +34,27 @@ h4 {
 }
 
 h5 {
-    font-size: 24px;
-    font-weight: bold;
+    font-family: Gilroy-Bold;
+    font-size: 32px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
 }
 
 h6 {
-    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-size: 22px;
     font-weight: bold;
+    margin: 0px;
 }
 
 p {
+    font-family: sans-serif;
     text-align: justify;
+}
+
+li {
+    font-family: Gilroy-Bold;
+    font-size: 20px;
 }
 
 .margin {
@@ -48,7 +67,7 @@ p {
 
 .hero {
     height: 100vh;
-    background-color: #EDE7F6;
+    background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);
 }
 
 .flex {
@@ -57,6 +76,8 @@ p {
 
 .hero-left {
     width: 50%;
+    background-color: #ffffff;
+    padding-right: 100px;
 }
 
 .hero-right {
@@ -76,3 +97,43 @@ p {
 .card-header a {
     color: #000000;
 }
+
+#underline1 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 100px;
+    box-shadow: 0 33px 0 0 #3700B3;
+  }
+
+#underline2 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 90px;
+    box-shadow: 0 33px 0 0 #6200EE;
+  }
+
+#underline3 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 115px;
+    box-shadow: 0 33px 0 0 #9965F4;
+  }
+
+#underline4 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 120px;
+    box-shadow: 0 33px 0 0 #B794F6;
+  }
+
+#underline5 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 80px;
+    box-shadow: 0 33px 0 0 #D4BFF9;
+  }
