@@ -65,6 +65,9 @@ li {
     background-color: #EDE7F6;
 }
 
+.wie_description {
+}
+
 .hero {
     height: 100vh;
     background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);

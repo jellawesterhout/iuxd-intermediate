@@ -37,6 +37,38 @@ fields:
     label: wanneer_3
     type: textarea
     size: small
+  title_wie:
+    label: title_wie
+    type: textarea
+    size: small
+  wie:
+    label: wie
+    type: textarea
+    size: medium
+  wie1:
+    label: wie1
+    type: textarea
+    size: small
+  wie2:
+    label: wie2
+    type: textarea
+    size: small
+  wie3:
+    label: wie3
+    type: textarea
+    size: small
+  wie4:
+    label: wie4
+    type: textarea
+    size: small
+  wie5:
+    label: wie5
+    type: textarea
+    size: small
+  wie6:
+    label: wie6
+    type: textarea
+    size: small
   title_verloop:
     label: title_verloop
     type: textarea

@@ -42,6 +42,38 @@ Wanneer-3: Dit is checklist puntje 3
 
 ----
 
+Title-wie: Wie neemt deel aan een Design Sprint?
+
+----
+
+Wie: Een Design Sprint-team heeft meestal een gevarieerde samenstelling, idealiter bestaat het team uit 4 tot 8 personen. De deelnemers van de sprint vormen samen een multidisciplinair team, dit betekent dat er mensen van verschillende disciplines, dus bijvoorbeeld niet alleen designers, in één team samenwerken. Ook betekent dit dat er mensen van de klant aanwezig zullen zijn, door de klant zo nauw te betrekken gaat de communicatie sneller en kunnen de partijen elkaar leren kennen.
+
+----
+
+Wie1: Facilitator <br/> / strateeg
+
+----
+
+Wie2: Product <br/> owner
+
+----
+
+Wie3: Visual <br/> designer
+
+----
+
+Wie4: UX <br/> designer
+
+----
+
+Wie5: Technicus <br/> / developer
+
+----
+
+Wie6: Copy writer <br/> / marketeer
+
+----
+
 Title-verloop: Hoe verloopt een Google Design Sprint?
 
 ----
