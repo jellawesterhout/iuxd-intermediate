@@ -21,6 +21,14 @@ fields:
     label: usp3
     type: textarea
     size: small
+  usp4:
+    label: usp4
+    type: textarea
+    size: small
+  usp5:
+    label: usp5
+    type: textarea
+    size: small
   title_2:
     label: title_2
     type: textarea

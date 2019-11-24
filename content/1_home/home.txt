@@ -14,15 +14,23 @@ Een design sprint gaat niet alleen om efficiëntie en het besparen van tijd. Het
 
 ----
 
-Usp1: Snel
+Usp1: Bespaar tijd door vergaderingen <br/> over te slaan
 
 ----
 
-Usp2: Efficiënt
+Usp2: Valideer snel <br/> nieuwe ideeën
 
 ----
 
-Usp3: Goedkoop
+Usp3: Houd je team gefocust en enthousiast
+
+----
+
+Usp4: Komt er achter hoe je doelgroep op het product reageert
+
+----
+
+Usp5: Krijg een duidelijke koers; een product strategie en -visie
 
 ----
 

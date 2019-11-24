@@ -27,18 +27,26 @@
 
     <div class="jumbotron jumbotron-fluid margin">
       <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6 class="text-center"><?= $page->usp1() ?></h6>
+        <div class="row justify-content-between">
+          <div class="col-2 flex">
+            <img src="assets/images/usp1.png" style="width: 40%;"/>
+            <h7 class="text-center"><?= $page->usp1() ?></h7>
           </div>
-          <div class="col-4">
-            <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6 class="text-center"><?= $page->usp2() ?></h6>
+          <div class="col-2 flex">
+            <img src="assets/images/usp2.png" style="width: 40%;"/>
+            <h7 class="text-center"><?= $page->usp2() ?></h7>
           </div>
-          <div class="col-4">
-            <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
-            <h6 class="text-center"><?= $page->usp3() ?></h6>
+          <div class="col-2 flex">
+            <img src="assets/images/usp3.png" style="width: 40%;"/>
+            <h7 class="text-center"><?= $page->usp3() ?></h7>
+          </div>
+          <div class="col-2 flex">
+            <img src="assets/images/usp4.png" style="width: 40%;"/>
+            <h7 class="text-center"><?= $page->usp4() ?></h7>
+          </div>
+          <div class="col-2 flex">
+            <img src="assets/images/usp5.png" style="width: 40%;"/>
+            <h7 class="text-center"><?= $page->usp5() ?></h7>
           </div>
         </div>
       </div>
@@ -73,31 +81,31 @@
       <div class="row justify-content-md-center">
         <div class="col-4 flex justify-content-around">
           <div class="col">
-            <img src="assets/images/wie1.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie1.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie1() ?></h6>
           </div>
           <div class="col">
-            <img src="assets/images/wie2.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie2.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie2() ?></h6>
           </div>
         </div>
         <div class="col-6 flex justify-content-around">
           <div class="col">
-            <img src="assets/images/wie3.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie3.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie3() ?></h6>
           </div>
           <div class="col">
-            <img src="assets/images/wie4.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie4.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie4() ?></h6>
           </div>
           <div class="col">
-            <img src="assets/images/wie5.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie5.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie5() ?></h6>
           </div>
         </div>
         <div class="col-2 flex justify-content-around">
           <div class="col">
-            <img src="assets/images/wie6.png" style="height: 50%; margin-bottom: 15px;"/>
+            <img src="assets/images/wie6.png" style="height: 40%; margin-bottom: 15px;"/>
             <h6 class="wie_description text-center"><?= $page->wie6() ?></h6>
           </div>
         </div>
