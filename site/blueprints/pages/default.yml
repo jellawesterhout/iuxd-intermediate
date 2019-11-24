@@ -45,6 +45,18 @@ fields:
     label: wanneer_3
     type: textarea
     size: small
+  wanneer_4:
+    label: wanneer_4
+    type: textarea
+    size: small
+  wanneer_5:
+    label: wanneer_5
+    type: textarea
+    size: small
+  wanneer_6:
+    label: wanneer_6
+    type: textarea
+    size: small
   title_wie:
     label: title_wie
     type: textarea

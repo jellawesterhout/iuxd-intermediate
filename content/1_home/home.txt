@@ -18,7 +18,7 @@ Usp1: Bespaar tijd door vergaderingen <br/> over te slaan
 
 ----
 
-Usp2: Valideer snel <br/> nieuwe ideeën
+Usp2: Valideer snel <br/> al bestaande <br/> ideeën en visies
 
 ----
 
@@ -38,15 +38,27 @@ Title-2: Wanneer is een Design Sprint van goede kwaliteit?
 
 ----
 
-Wanneer-1: Dit is checklist puntje 1
+Wanneer-1: Als er een <b>duidelijk vraagstuk</b> is geformuleerd.
 
 ----
 
-Wanneer-2: Dit is checklist puntje 2
+Wanneer-2: Als de <b>juiste mensen</b> bij de Sprint worden betrokken.
 
 ----
 
-Wanneer-3: Dit is checklist puntje 3
+Wanneer-3: Als er veel <b>oplossingsrichtingen en risico’s</b> zijn verkend.
+
+----
+
+Wanneer-4: Als er een goed <b>testbaar prototype</b> is gemaakt.
+
+----
+
+Wanneer-5: Als er aan het eind van de sprint een duidelijke <b>koers voor de toekomst</b> is.
+
+----
+
+Wanneer-6: Als er goed is gekeken naar of de onderdelen van de Sprint <b>aansluiten op het vraagstuk.</b>
 
 ----
 

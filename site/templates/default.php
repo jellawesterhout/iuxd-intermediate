@@ -28,24 +28,24 @@
     <div class="jumbotron jumbotron-fluid margin">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-2 flex">
-            <img src="assets/images/usp1.png" style="width: 40%;"/>
+          <div class="col-2 flex direction">
+            <img src="assets/images/usp1.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp1() ?></h7>
           </div>
-          <div class="col-2 flex">
-            <img src="assets/images/usp2.png" style="width: 40%;"/>
+          <div class="col-2 flex direction">
+            <img src="assets/images/usp2.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp2() ?></h7>
           </div>
-          <div class="col-2 flex">
-            <img src="assets/images/usp3.png" style="width: 40%;"/>
+          <div class="col-2 flex direction">
+            <img src="assets/images/usp3.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp3() ?></h7>
           </div>
-          <div class="col-2 flex">
-            <img src="assets/images/usp4.png" style="width: 40%;"/>
+          <div class="col-2 flex direction">
+            <img src="assets/images/usp4.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp4() ?></h7>
           </div>
-          <div class="col-2 flex">
-            <img src="assets/images/usp5.png" style="width: 40%;"/>
+          <div class="col-2 flex direction">
+            <img src="assets/images/usp5.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp5() ?></h7>
           </div>
         </div>
@@ -56,10 +56,13 @@
       <div class="row">
         <div class="col-6">
           <h5><?= $page->title_2() ?></h5>
-          <ul>
+          <ul style="padding-right: 50px;">
             <li><?= $page->wanneer_1() ?></li>
             <li><?= $page->wanneer_2() ?></li>
             <li><?= $page->wanneer_3() ?></li>
+            <li><?= $page->wanneer_4() ?></li>
+            <li><?= $page->wanneer_5() ?></li>
+            <li><?= $page->wanneer_6() ?></li>
           </ul>
         </div>
         <div class="col-6">
