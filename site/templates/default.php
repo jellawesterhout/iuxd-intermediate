@@ -74,6 +74,35 @@
     <div class="container margin">
       <div class="row justify-content-md-center">
         <div class="col-7">
+          <h5 class="text-center">Facilitator</h5>
+        </div> 
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie1() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie2() ?></h6>
+        </div>  
+      <div class="row justify-content-md-center">
+        <div class="col-5">
+          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.</p>     
+        </div>  
+      </div>    
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container margin">
+      <div class="row justify-content-md-center">
+        <div class="col-7">
           <h5><?= $page->title_wie() ?></h5>
           <p><?= $page->wie() ?></p>
         </div>
