@@ -79,6 +79,11 @@ li {
     line-height: 1.9em;
 }
 
+.btn {
+    background-color: #ffffff;
+    height: 70px;
+}
+
 .margin {
     margin-top: 150px;
 }
@@ -97,6 +102,11 @@ li {
 
 .hero {
     height: 100vh;
+    background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);
+}
+
+.hero2 {
+    height: 40vh;
     background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);
 }
 
