@@ -15,11 +15,11 @@
   <body>
     <div class="container margin">
       <div class="row">
-        <div class="col-6" style="padding-right: 50px;">
+        <div class="col-md-6" style="padding-right: 50px;">
           <h5><?= $page->title_1() ?></h5>
           <p><?= $page->wat()->kirbytext() ?></p>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <img src="assets/images/img1.png" style="width: 100%;"/>
         </div>
       </div>
@@ -28,23 +28,23 @@
     <div class="jumbotron jumbotron-fluid margin">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp1.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp1() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp2.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp2() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp3.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp3() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp4.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp4() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp5.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp5() ?></h7>
           </div>
@@ -172,10 +172,6 @@
         </div>  
       </div>    
     </div>
-
-
-
-
 
 
     <div class="container margin">
