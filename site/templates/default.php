@@ -125,42 +125,52 @@
       </div>
       <div class="row justify-content-md-center">
         <div class="col-2 flex direction">
-          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie1() ?></h6>
+          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie1() ?></h6>
         </div>
         <div class="col-2 flex direction">
-          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie2() ?></h6>
+          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie2() ?></h6>
         </div>  
+      </div>
       <div class="row justify-content-md-center">
         <div class="col-5">
-          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.</p>     
+          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.
+          </p>     
         </div>  
       </div>    
-      </div>
     </div>
 
     <div class="container margin">
       <div class="row justify-content-md-center">
         <div class="col-7">
-          <h5 class="text-center">Facilitator</h5>
+          <h5 class="text-center">Deelnemer</h5>
         </div> 
       </div>
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center"> 
         <div class="col-2 flex direction">
-          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie1() ?></h6>
+          <img src="assets/images/wie3.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie3() ?></h6>
         </div>
         <div class="col-2 flex direction">
-          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 20px;"><?= $page->wie2() ?></h6>
-        </div>  
+          <img src="assets/images/wie4.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie4() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie5.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie5() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie6.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie6() ?></h6>
+        </div>
+      </div>
       <div class="row justify-content-md-center">
         <div class="col-5">
-          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.</p>     
+          <p class="text-justify">Dit zijn de mensen die alle ideeën visualiseren. Ze zorgen ervoor dat er zoveel mogelijk wordt geschetst en getekend om de ‘show-don’t-tell’ aanpak na te streven. Daarnaast werken ze het uiteindelijke idee uit tot een testbaar prototype.
+          </p>     
         </div>  
       </div>    
-      </div>
     </div>
 
 
