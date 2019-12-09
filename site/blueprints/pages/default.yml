@@ -57,6 +57,10 @@ fields:
     label: wanneer_6
     type: textarea
     size: small
+  title_keuze:
+    label: title_keuze
+    type: textarea
+    size: small
   title_wie:
     label: title_wie
     type: textarea

@@ -62,6 +62,10 @@ Wanneer-6: Als er goed is gekeken naar of de onderdelen van de Sprint <b>aanslui
 
 ----
 
+Title-keuze: Welke rol wil je meer over weten?
+
+----
+
 Title-wie: Wie neemt deel aan een Design Sprint?
 
 ----

@@ -107,7 +107,7 @@ li {
 }
 
 .hero2 {
-    height: 40vh;
+    height: 50vh;
     background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);
 }
 
@@ -141,7 +141,7 @@ li {
     height: 6px;
     width: 100px;
     box-shadow: 0 33px 0 0 #3700B3;
-  }
+}
 
 #underline2 {
     background: transparent;
@@ -149,7 +149,7 @@ li {
     height: 6px;
     width: 90px;
     box-shadow: 0 33px 0 0 #6200EE;
-  }
+}
 
 #underline3 {
     background: transparent;
@@ -157,7 +157,7 @@ li {
     height: 6px;
     width: 115px;
     box-shadow: 0 33px 0 0 #9965F4;
-  }
+}
 
 #underline4 {
     background: transparent;
@@ -165,7 +165,7 @@ li {
     height: 6px;
     width: 120px;
     box-shadow: 0 33px 0 0 #B794F6;
-  }
+}
 
 #underline5 {
     background: transparent;
@@ -173,4 +173,20 @@ li {
     height: 6px;
     width: 80px;
     box-shadow: 0 33px 0 0 #D4BFF9;
-  }
+}
+
+#underline6 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 110px;
+    box-shadow: 0 33px 0 0 #3700B3;
+}
+
+#underline7 {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 120px;
+    box-shadow: 0 33px 0 0 #6200EE;
+}
