@@ -15,11 +15,11 @@
   <body>
     <div class="container margin">
       <div class="row">
-        <div class="col-6" style="padding-right: 50px;">
+        <div class="col-md-6" style="padding-right: 50px;">
           <h5><?= $page->title_1() ?></h5>
           <p><?= $page->wat()->kirbytext() ?></p>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <img src="assets/images/img1.png" style="width: 100%;"/>
         </div>
       </div>
@@ -28,23 +28,23 @@
     <div class="jumbotron jumbotron-fluid margin">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp1.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp1() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp2.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp2() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp3.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp3() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp4.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp4() ?></h7>
           </div>
-          <div class="col-2 flex direction">
+          <div class="col-md-2 flex direction">
             <img src="assets/images/usp5.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
             <h7 class="text-center"><?= $page->usp5() ?></h7>
           </div>
@@ -70,6 +70,80 @@
         </div>
       </div>
     </div>
+
+    <!-- Dit wordt de jumbotron met de twee knoppen -->
+    <div class="hero2">
+      <div class="container margin flex">
+        <div class="hero-left margin">
+          <div class="col">
+            <h5><?= $page->title_keuze() ?></h5>
+          </div>
+        </div>
+        <div class="hero-right margin">
+          <div class="col-md-12 offset-md-1">
+            <button style="width: 100%;" type="button" class="btn btn-light shadow-sm card card-header"><h6 id="underline6"><span><img class="" src="assets/images/usp5.png" style="height: 40px;"></span>Facilitator</h6></button>
+            <button style="width: 100%;" type="button" class="btn btn-light shadow-sm card card-header"><h6 id="underline7">Deelnemer</h6></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container margin">
+      <div class="row justify-content-md-center">
+        <div class="col-7">
+          <h5 class="text-center">Facilitator</h5>
+        </div> 
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie1() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie2() ?></h6>
+        </div>  
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-5">
+          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.
+          </p>     
+        </div>  
+      </div>    
+    </div>
+
+    <div class="container margin">
+      <div class="row justify-content-md-center">
+        <div class="col-7">
+          <h5 class="text-center">Deelnemer</h5>
+        </div> 
+      </div>
+      <div class="row justify-content-md-center"> 
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie3.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie3() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie4.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie4() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie5.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie5() ?></h6>
+        </div>
+        <div class="col-2 flex direction">
+          <img src="assets/images/wie6.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
+          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie6() ?></h6>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-5">
+          <p class="text-justify">Dit zijn de mensen die alle ideeën visualiseren. Ze zorgen ervoor dat er zoveel mogelijk wordt geschetst en getekend om de ‘show-don’t-tell’ aanpak na te streven. Daarnaast werken ze het uiteindelijke idee uit tot een testbaar prototype.
+          </p>     
+        </div>  
+      </div>    
+    </div>
+
 
     <div class="container margin">
       <div class="row justify-content-md-center">
