@@ -200,25 +200,27 @@
       </div>
     </div>
 
-    <!-- Dit wordt de jumbotron met de twee knoppen
-    <div class="hero2">
-      <div class="container margin flex">
-        <div class="hero-left margin">
-          <div class="col">
-            <h5><?= $page->title_keuze() ?></h5>
+    <!---------- K E U Z E ---------->
+    <div class="container margin">
+      <div class="row justify-content-md-center">
+        <div class="col">
+          <h5 class="text-center"><?= $page->title_keuze() ?></h5>  
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-4">
+          <div class="card-2 card-header2 shadow-sm d-flex flex-row">
+            <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+            <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="hero-right margin">
-          <div class="col-md-12 offset-md-1">
-            <button style="width: 100%;" type="button" class="btn btn-light shadow-sm card card-header"><h6 id="underline6"><span><img class="" src="assets/images/usp5.png" style="height: 40px;"></span>Facilitator</h6></button>
-            <button style="width: 100%;" type="button" class="btn btn-light shadow-sm card card-header"><h6 id="underline7">Deelnemer</h6></button>
+        <div class="col-4">
+          <div class="card-2 card-header2 shadow-sm d-flex flex-row" role="tab" id="heading14">
+            <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+            <h6 id="underline2c"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
           </div>
         </div>
       </div>
-    </div> -->
-
-    <div class="container">
-      <div></div>
     </div>
 
     <div class="container margin">
