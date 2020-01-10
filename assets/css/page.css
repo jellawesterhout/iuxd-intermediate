@@ -127,9 +127,20 @@ li {
     box-shadow: 3, 4, 4, 4;
 }
 
+.card-2 {
+    margin-top: 20px;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px);
+    background-color: #ffffff;;
+    height: 70px;
+}
+
 .card-header {
     background-color: #ffffff;
     height: 70px;
+}
+
+.card-header2 {
+    padding: .75rem 1.25rem;
 }
 
 .card-header a {
@@ -205,6 +216,14 @@ li {
     border-radius: 10px;
     height: 6px;
     width: 85px;
+    box-shadow: 0 33px 0 0 #6200EE;
+}
+
+#underline2c{
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 110px;
     box-shadow: 0 33px 0 0 #6200EE;
 }
 

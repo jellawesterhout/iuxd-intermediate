@@ -121,3 +121,12 @@ fields:
     label: zaterdag_description
     type: textarea
     size: small
+  deelnemer:
+    label: deelnemer
+    type: textarea
+    size: small
+  title_verloop:
+    label: title_verloop
+    type: textarea
+    size: small
+  
