@@ -65,56 +65,36 @@ fields:
     label: title_wie
     type: textarea
     size: small
-  wie:
-    label: wie
+  title_deelnemers:
+    label: title_deelnemers
+    type: textarea
+    size: small
+  deelnemers_introtekst:
+    label: deelnemers_introtekst
     type: textarea
     size: medium
-  wie1:
-    label: wie1
+  facilitator:
+    label: facilitator
     type: textarea
     size: small
-  wie2:
-    label: wie2
+  product_owner:
+    label: product_owner
     type: textarea
     size: small
-  wie3:
-    label: wie3
+  visual_designer:
+    label: visual_designer
     type: textarea
     size: small
-  wie4:
-    label: wie4
+  ux_designer:
+    label: ux_designer
     type: textarea
     size: small
-  wie5:
-    label: wie5
+  developer:
+    label: developer
     type: textarea
     size: small
-  wie6:
-    label: wie6
-    type: textarea
-    size: small
-  title_verloop:
-    label: title_verloop
-    type: textarea
-    size: small
-  maandag:
-    label: maandag
-    type: textarea
-    size: small
-  dinsdag:
-    label: dinsdag
-    type: textarea
-    size: small
-  woensdag:
-    label: woensdag
-    type: textarea
-    size: small
-  donderdag:
-    label: donderdag
-    type: textarea
-    size: small
-  vrijdag:
-    label: vrijdag
+  copy_writer:
+    label: copy_writer
     type: textarea
     size: small
   maandag_description:
@@ -135,5 +115,9 @@ fields:
     size: small
   vrijdag_description:
     label: vrijdag_description
+    type: textarea
+    size: small
+  zaterdag_description:
+    label: zaterdag_description
     type: textarea
     size: small
