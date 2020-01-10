@@ -102,7 +102,7 @@ li {
 }
 
 .hero {
-    height: 100vh;
+    min-height: 300px;
     background-image: linear-gradient(to right, #ffffff 50%, #ede7f6 50%);
 }
 
@@ -119,6 +119,7 @@ li {
 
 .hero-right {
     width: 50%;
+    padding-bottom: 80px;
 }
 
 .card {
@@ -189,4 +190,52 @@ li {
     height: 6px;
     width: 120px;
     box-shadow: 0 33px 0 0 #6200EE;
+}
+
+#underline1b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 110px;
+    box-shadow: 0 33px 0 0 #3700B3;
+}
+
+#underline2b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 85px;
+    box-shadow: 0 33px 0 0 #6200EE;
+}
+
+#underline3b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 160px;
+    box-shadow: 0 33px 0 0 #9965F4;
+}
+
+#underline4b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 125px;
+    box-shadow: 0 33px 0 0 #B794F6;
+}
+
+#underline5b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 110px;
+    box-shadow: 0 33px 0 0 #D4BFF9;
+}
+
+#underline6b {
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 120px;
+    box-shadow: 0 33px 0 0 #D4BFF9;
 }

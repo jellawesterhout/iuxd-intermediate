@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/page.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
     <!--<title><?= $page->title() ?></title>-->
   </head>
@@ -71,7 +72,135 @@
       </div>
     </div>
 
-    <!-- Dit wordt de jumbotron met de twee knoppen -->
+    <div class="hero">
+      <div class="container margin flex">
+        <div class="hero-left margin">
+          <div class="col">
+            <h5><?= $page->title_deelnemers() ?></h5>
+            <p><?= $page->deelnemers_introtekst()->kirbytext() ?></p>
+          </div>
+        </div>
+        <div class="hero-right margin">
+          <div class="col-md-12 offset-md-1">
+            <!--Accordion wrapper-->
+            <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
+
+            <!-- Accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading10">
+                <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline1b"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
+                aria-controls="collapse10"><?= $page->facilitator () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->maandag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading11">
+                <img src="assets/images/wie2.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline2b"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11" aria-expanded="false"
+                aria-controls="collapse11"><?= $page->product_owner () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->dinsdag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading12">
+                <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline3b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12" aria-expanded="false"
+                aria-controls="collapse12"><?= $page->visual_designer () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->woensdag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading13">
+                <img src="assets/images/wie4.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline4b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13" aria-expanded="false"
+                aria-controls="collapse13"><?= $page->ux_designer () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->donderdag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading14">
+                <img src="assets/images/wie5.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline5b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14" aria-expanded="false"
+                aria-controls="collapse14"><?= $page->developer () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->vrijdag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- accordion card -->
+            <div class="card rounded shadow-sm">
+
+              <!-- Card header -->
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading14">
+                <img src="assets/images/wie6.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+                <h6 id="underline6b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14" aria-expanded="false"
+                aria-controls="collapse14"><?= $page->copy_writer () ?></a></span></h6>
+              </div>
+              <!-- Card body -->
+              <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
+                data-parent="#accordionEx2">
+                <div class="card-body rgba-teal-strong white-text">
+                  <p><?= $page->zaterdag_description () ?></p>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            <!--/.Accordion wrapper-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dit wordt de jumbotron met de twee knoppen
     <div class="hero2">
       <div class="container margin flex">
         <div class="hero-left margin">
@@ -86,13 +215,17 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="container">
+      <div></div>
     </div>
 
     <div class="container margin">
       <div class="row justify-content-md-center">
         <div class="col-7">
           <h5 class="text-center">Facilitator</h5>
-        </div> 
+        </div>
       </div>
       <div class="row justify-content-md-center">
         <div class="col-2 flex direction">
@@ -144,51 +277,7 @@
       </div>    
     </div>
 
-
-    <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col-7">
-          <h5><?= $page->title_wie() ?></h5>
-          <p><?= $page->wie() ?></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col-4 flex justify-content-around">
-          <div class="col">
-            <img src="assets/images/wie1.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie1() ?></h6>
-          </div>
-          <div class="col">
-            <img src="assets/images/wie2.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie2() ?></h6>
-          </div>
-        </div>
-        <div class="col-6 flex justify-content-around">
-          <div class="col">
-            <img src="assets/images/wie3.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie3() ?></h6>
-          </div>
-          <div class="col">
-            <img src="assets/images/wie4.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie4() ?></h6>
-          </div>
-          <div class="col">
-            <img src="assets/images/wie5.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie5() ?></h6>
-          </div>
-        </div>
-        <div class="col-2 flex justify-content-around">
-          <div class="col">
-            <img src="assets/images/wie6.png" style="height: 40%; margin-bottom: 15px;"/>
-            <h6 class="wie_description text-center"><?= $page->wie6() ?></h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!---------- T R E L L O ---------->
     <div class="hero">
       <div class="container margin flex">
         <div class="hero-left margin">
@@ -197,100 +286,62 @@
           </div>
         </div>
         <div class="hero-right margin">
-          <div class="col-md-12 offset-md-1">
-            <!--Accordion wrapper-->
-            <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
-
-            <!-- Accordion card -->
-            <div class="card rounded shadow-sm">
-
-              <!-- Card header -->
-              <div class="card-header z-depth-1" role="tab" id="heading10">
-                <h6 id="underline1"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
-                aria-controls="collapse10"><?= $page->maandag () ?></a></span></h6>
-              </div>
-              <!-- Card body -->
-              <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p><?= $page->maandag_description () ?></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card -->
-            <div class="card rounded shadow-sm">
-
-              <!-- Card header -->
-              <div class="card-header z-depth-1" role="tab" id="heading11">
-                <h6 id="underline2"><span class="align-middle"><a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11" aria-expanded="false"
-                aria-controls="collapse11"><?= $page->dinsdag () ?></a></span></h6>
-              </div>
-              <!-- Card body -->
-              <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p><?= $page->dinsdag_description () ?></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card -->
-            <div class="card rounded shadow-sm">
-
-              <!-- Card header -->
-              <div class="card-header z-depth-1" role="tab" id="heading12">
-                <h6 id="underline3"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse12" aria-expanded="false"
-                aria-controls="collapse12"><?= $page->woensdag () ?></a></span></h6>
-              </div>
-              <!-- Card body -->
-              <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p><?= $page->woensdag_description () ?></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card -->
-            <div class="card rounded shadow-sm">
-
-              <!-- Card header -->
-              <div class="card-header z-depth-1" role="tab" id="heading13">
-                <h6 id="underline4"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse13" aria-expanded="false"
-                aria-controls="collapse13"><?= $page->donderdag () ?></a></span></h6>
-              </div>
-              <!-- Card body -->
-              <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p><?= $page->donderdag_description () ?></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card -->
-            <div class="card rounded shadow-sm">
-
-              <!-- Card header -->
-              <div class="card-header z-depth-1" role="tab" id="heading14">
-                <h6 id="underline5"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14" aria-expanded="false"
-                aria-controls="collapse14"><?= $page->vrijdag () ?></a></span></h6>
-              </div>
-              <!-- Card body -->
-              <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
-                data-parent="#accordionEx2">
-                <div class="card-body rgba-teal-strong white-text">
-                  <p><?= $page->vrijdag_description () ?></p>
-                </div>
-              </div>
-            </div>
-            </div>
-            <!--/.Accordion wrapper-->
+          <div class="col offset-md-1">
+            <img src="assets/images/trello.png" style="width: 150%;"/>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      /**********************Scroll Animation "START"************************************/
+      $(document).ready(function(){
+      var $animation_elements = $('.anim');
+      var $window = $(window);
+
+      function check_if_in_view() {
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+
+      $.each($animation_elements, function() {
+      var $element = $(this);
+      var element_height = $element.outerHeight();
+      var element_top_position = $element.offset().top;
+      var element_bottom_position = (element_top_position + element_height);
+
+      //check to see if this current container is within viewport
+      if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+      $element.addClass('animated');
+      } else {
+      $element.removeClass('animated');
+      }
+      });
+      }
+
+      $window.on('scroll resize', check_if_in_view);
+      $window.trigger('scroll');
+      });
+      /**********************Scroll Animation "END"************************************/
+
+      /**********************Change color of center aligned animated content small Circle  "START"************************************/
+      $(document).ready(function(){
+          $(" .debits").hover(function(){
+              $(" .center-right").css("background-color", "#4997cd");
+              }, function(){
+              $(" .center-right").css("background-color", "#fff");
+          }); 
+      });
+      $(document).ready(function(){
+          $(".credits").hover(function(){
+              $(".center-left").css("background-color", "#4997cd");
+              }, function(){
+              $(".center-left").css("background-color", "#fff");
+          }); 
+      });
+      /**********************Change color of center aligned animated content small Circle  "END"************************************/
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
