@@ -65,6 +65,7 @@ h7 {
 p {
     font-family: AvenirNext-Medium;
     font-weight: 100;
+    color: rgba(0, 0, 0, 0.75)
     /*text-align: justify;*/
 }
 
@@ -257,4 +258,26 @@ li {
     height: 6px;
     width: 120px;
     box-shadow: 0 33px 0 0 #D4BFF9;
+}
+
+#border-left {
+    background: transparent;
+    border-radius: 10px;
+    /*border-left: 6px solid red;*/
+    height: 130px;
+    width: 6px;
+    box-shadow: -33px 0 0 0 #D4BFF9;
+}
+
+.checklist {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+}
+
+.form-check {
+    margin-left: 20px;
+}
+
+.form-check-input {
+    margin-left: -25px;
 }

@@ -223,6 +223,65 @@
       </div>
     </div>
 
+    <!---------- F A C I L I T A T O R ---------->
+    <div class="container" style="margin-top: 80px;">
+      <div class="row">
+        <div class="col-6">
+          <div id="border-left"></div>
+          <h6 style="line-height: 1.5em; margin-top: -130px; padding-right: 10px;"><?= $page->text_facilitator () ?></h6>
+        </div>
+        <div class="col-6">
+          <h6>Wat heb je nodig voor een Design Sprint?</h6>
+          <div class="checklist" style="padding-top: 20px; margin-top: 20px;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Een whiteboard en markers in verschillende kleuren</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Post-its in verschillende kleuren</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Genoeg A4 en A3-papier</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Stiften in verschillende kleuren</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Voting dots (cirkelvormige stickers)</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Een timer (geen telefoon)</p>
+              </label>
+            </div>
+            <!--<ul style="margin-top: 20px; padding-top: 15px; padding-bottom: 15px;">
+              <li>Een whiteboard met whiteboard markers.</li>
+              <li>Verschillende kleuren post-its.</li>
+              <li>Nog wat andere spulletjes.</li>
+              <li>Een ruimte met genoeg daglicht en frisse lucht.</li>
+              <li>En dan nog wat papier om te schrijven.</li>
+            </ul>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
     <div class="container margin">
       <div class="row justify-content-md-center">
         <div class="col-7">
@@ -277,7 +336,7 @@
           </p>     
         </div>  
       </div>    
-    </div>
+    </div> -->
 
     <!---------- T R E L L O ---------->
     <div class="hero">
