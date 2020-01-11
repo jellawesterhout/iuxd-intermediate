@@ -10,7 +10,7 @@ Wat:
 
 Een design sprint is een proces van 5 dagen wat door multidisciplinaire teams gebruikt wordt voor het beantwoorden van kritische vraagstukken. Een sprint helpt teams om snel en stapsgewijs van probleem naar geteste oplossing te komen en zo een proces van maanden designen, prototypen en testen naar slechts 5 dagen te brengen. Het kan worden gezien als een kijkje in de toekomst, je kan zien hoe gebruikers op je product (high-fidelity prototype) reageren voordat je veel tijd, geld en moeite steekt in het bouwen van een product. 
 
-Een design sprint gaat niet alleen om efficiëntie en het besparen van tijd. Het helpt ook om de ‘normale’ manier van werken te onderbreken en deze te vervangen voor een slimmere en meer effectieve manier van problemen oplossen, die gebruik maakt van ieders beste kwaliteit.**
+Een design sprint gaat niet alleen om efficiëntie en het besparen van tijd. Het helpt ook om de ‘normale’ manier van werken te onderbreken en deze te vervangen voor een slimmere en meer effectieve manier van problemen oplossen, die gebruik maakt van ieders beste kwaliteit.
 
 ----
 
@@ -42,23 +42,23 @@ Wanneer-1: Als er een <b>duidelijk vraagstuk</b> is geformuleerd.
 
 ----
 
-Wanneer-2: Als de <b>juiste mensen</b> bij de Sprint worden betrokken.
+Wanneer-2: Als de juiste mensen bij de Sprint worden betrokken.
 
 ----
 
-Wanneer-3: Als er veel <b>oplossingsrichtingen en risico’s</b> zijn verkend.
+Wanneer-3: Als er veel oplossingsrichtingen en risico’s zijn verkend.
 
 ----
 
-Wanneer-4: Als er een goed <b>testbaar prototype</b> is gemaakt.
+Wanneer-4: Als er een goed testbaar prototype is gemaakt.
 
 ----
 
-Wanneer-5: Als er aan het eind van de sprint een duidelijke <b>koers voor de toekomst</b> is.
+Wanneer-5: Als er aan het eind van de sprint een duidelijke koers is.
 
 ----
 
-Wanneer-6: Als er goed is gekeken naar of de onderdelen van de Sprint <b>aansluiten op het vraagstuk.</b>
+Wanneer-6: Als er goed is gekeken naar of de sprintonderdelen aansluiten op het vraagstuk.
 
 ----
 

@@ -16,14 +16,33 @@
   </head>
 
   <body>
-    <div class="container margin">
-      <div class="row">
-        <div class="col-md-6" style="padding-right: 50px;">
-          <h5><?= $page->title_1() ?></h5>
-          <p><?= $page->wat()->kirbytext() ?></p>
+    <div class="jumbotron jumbotron-fluid header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2 style="margin-top: 30px; margin-bottom: 30px;">De Google Design Sprint</h2>
+            <p>Een Design Sprint is een intensieve design-thinking workshop die een team van een vaag concept naar een user-validated prototype brengt in slechts vijf dagen.</p>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/visual1.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="assets/images/img1.png" style="width: 100%;"/>
+      </div>
+    </div>
+
+    <div class="container margin">
+      <div class="row justify-content-end">
+        <div class="col-md-8">
+          <h5><?= $page->title_1 () ?></h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="border-left2"></div>
+          <h6 class="intro_designsprints">Een design sprint is een proces van 5 dagen wat door multidisciplinaire teams gebruikt wordt voor het beantwoorden van kritische vraagstukken.</h6>
+        </div>
+        <div class="col-md-8">
+          <p style="margin-top: -16px;"><?= $page->wat()->kirbytext() ?></p>
         </div>
       </div>
     </div>
@@ -58,31 +77,65 @@
     <div class="container margin">
       <div class="row">
         <div class="col-6">
-          <h5><?= $page->title_2() ?></h5>
-          <ul style="padding-right: 50px;">
-            <li><?= $page->wanneer_1() ?></li>
-            <li><?= $page->wanneer_2() ?></li>
-            <li><?= $page->wanneer_3() ?></li>
-            <li><?= $page->wanneer_4() ?></li>
-            <li><?= $page->wanneer_5() ?></li>
-            <li><?= $page->wanneer_6() ?></li>
-          </ul>
+          <img src="assets/images/visual3.png" style="width: 100%; padding-right: 25px; position: absolute;"/>
         </div>
         <div class="col-6">
-          <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
+          <h5><?= $page->title_2() ?></h5>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 checklist" style="margin-top:10px;">
+          <div style="padding-top: 20px; padding-bottom: 10px;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_1() ?></p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_2() ?></p>              
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_3() ?></p>              
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_4() ?></p>             
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_5() ?></p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_6() ?></p>
+              </label>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="hero">
-      <div class="container margin flex">
-        <div class="hero-left margin">
+      <div class="container margin2 flex">
+        <div class="hero-left margin2">
           <div class="col">
             <h5><?= $page->title_deelnemers() ?></h5>
             <p><?= $page->deelnemers_introtekst()->kirbytext() ?></p>
           </div>
         </div>
-        <div class="hero-right margin">
+        <div class="hero-right margin2">
           <div class="col-md-12 offset-md-1">
             <!--Accordion wrapper-->
             <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
@@ -204,9 +257,13 @@
 
     <!---------- K E U Z E ---------->
     <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col">
-          <h5 class="text-center"><?= $page->title_keuze() ?></h5>  
+      <div class="row">
+        <div class="col-6">
+          <h5><?= $page->title_keuze() ?></h5> 
+          <p><?= $page->zaterdag_description () ?></p> 
+        </div>
+        <div class="col-6">
+          <img src="assets/images/visual2.png" style="width: 100%; position: absolute;"/>
         </div>
       </div>
 
@@ -215,14 +272,14 @@
     <!---------- F A C I L I T A T O R ---------->
     <div class="container targetdivs" id="facilitator-div">
 
-      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
-        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+      <div class="row" style="margin-bottom: 150px;">
+        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -323,14 +380,14 @@
     <!---------- D E E L N E M E R ---------->
     <div class="container targetdivs" id="deelnemer-div">
 
-      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
-        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+      <div class="row" style="margin-bottom: 150px;">
+        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -366,39 +423,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row justify-content-end">
-        <div class="col-8">
-          <h6 style="margin-top: 60px;">Hoe bereid je een Design Sprint voor?</h6>
-        </div>  
-      </div>
-
-      <div class="row justify-content-end">
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Lees het Sprint boek van Jake Knapp</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Stel gedrags- regels op voor tijdens de Sprint</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een ruimte met daglicht en whiteboards</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een test- ruimte en zoek respondenten</p>
-          </div>        
-        </div>  
       </div>
 
       <div class="row justify-content-end">
