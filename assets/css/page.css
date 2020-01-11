@@ -264,7 +264,7 @@ li {
     background: transparent;
     border-radius: 10px;
     /*border-left: 6px solid red;*/
-    height: 120px;
+    height: 125px;
     width: 6px;
     box-shadow: -7px 0 0 0 #D4BFF9;
 }
@@ -272,9 +272,9 @@ li {
 .intro_facilitator {
     font-size: 20px;
     line-height: 1.5em;
-    margin-top: -120px;
+    margin-top: -125px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 .checklist {
@@ -288,4 +288,17 @@ li {
 
 .form-check-input {
     margin-left: -25px;
+}
+
+.voorbereiden {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.voorbereiden p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
 }

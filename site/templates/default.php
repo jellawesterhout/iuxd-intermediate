@@ -226,13 +226,13 @@
     <!---------- F A C I L I T A T O R ---------->
     <div class="container" style="margin-top: 80px;">
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <div id="border-left"></div>
           <h6 class="intro_facilitator"><?= $page->text_facilitator () ?></h6>
         </div>
-        <div class="col-6 checklist">
+        <div class="col-8 checklist">
           <h6 style="margin-left: 15px; margin-top: 30px;">Wat heb je nodig voor een Design Sprint?</h6>
-          <div style="padding-top: 20px;">
+          <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
@@ -272,6 +272,48 @@
           </div>
         </div>
       </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 60px;">Hoe bereid je een Design Sprint voor?</h6>
+        </div>  
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Lees het Sprint boek van Jake Knapp</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Stel gedrags- regels op voor tijdens de Sprint</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Boek een ruimte met daglicht en whiteboards</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Boek een test- ruimte en zoek respondenten</p>
+          </div>        
+        </div>  
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 60px; margin-bottom: 20px;">Welke skills heb je nodig?</h6>
+          <p>Als facilitator zijn er een aantal belangrijke skills die je in huis moet hebben. Ten eerste is het belangrijk dat de facilitator een echte leider is en dat hij/zij het overzicht kan bewaren. Daarnaast is de facilitator een neutraal persoon en moet hij/zij in staat zijn om te bemiddelen tussen verschillende partijen, om risico's te nemen en om knopen door te hakken. Ook is de facilitator verantwoordelijk voor het werk van het team en moet hij/zij snappen wanneer het team aanmoediging nodig heeft of wanneer ze juist met rust gelaten moeten worden.</p>
+        </div>
+      </div>
+
+
     </div>
 
     <!--
