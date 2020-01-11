@@ -179,13 +179,13 @@
             <div class="card rounded shadow-sm">
 
               <!-- Card header -->
-              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading14">
+              <div class="card-header z-depth-1 d-flex flex-row" role="tab" id="heading15">
                 <img src="assets/images/wie6.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
-                <h6 id="underline6b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse14" aria-expanded="false"
-                aria-controls="collapse14"><?= $page->copy_writer () ?></a></span></h6>
+                <h6 id="underline6b"><span class="align-middle"><a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse15" aria-expanded="false"
+                aria-controls="collapse15"><?= $page->copy_writer () ?></a></span></h6>
               </div>
               <!-- Card body -->
-              <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
+              <div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15"
                 data-parent="#accordionEx2">
                 <div class="card-body rgba-teal-strong white-text">
                   <p><?= $page->zaterdag_description () ?></p>
@@ -228,11 +228,11 @@
       <div class="row">
         <div class="col-6">
           <div id="border-left"></div>
-          <h6 style="line-height: 1.5em; margin-top: -130px; padding-right: 10px;"><?= $page->text_facilitator () ?></h6>
+          <h6 class="intro_facilitator"><?= $page->text_facilitator () ?></h6>
         </div>
-        <div class="col-6">
-          <h6>Wat heb je nodig voor een Design Sprint?</h6>
-          <div class="checklist" style="padding-top: 20px; margin-top: 20px;">
+        <div class="col-6 checklist">
+          <h6 style="margin-left: 15px; margin-top: 30px;">Wat heb je nodig voor een Design Sprint?</h6>
+          <div style="padding-top: 20px;">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
@@ -269,13 +269,6 @@
                 <p>Een timer (geen telefoon)</p>
               </label>
             </div>
-            <!--<ul style="margin-top: 20px; padding-top: 15px; padding-bottom: 15px;">
-              <li>Een whiteboard met whiteboard markers.</li>
-              <li>Verschillende kleuren post-its.</li>
-              <li>Nog wat andere spulletjes.</li>
-              <li>Een ruimte met genoeg daglicht en frisse lucht.</li>
-              <li>En dan nog wat papier om te schrijven.</li>
-            </ul>-->
           </div>
         </div>
       </div>

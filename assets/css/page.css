@@ -264,9 +264,17 @@ li {
     background: transparent;
     border-radius: 10px;
     /*border-left: 6px solid red;*/
-    height: 130px;
+    height: 120px;
     width: 6px;
-    box-shadow: -33px 0 0 0 #D4BFF9;
+    box-shadow: -7px 0 0 0 #D4BFF9;
+}
+
+.intro_facilitator {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: -120px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .checklist {
