@@ -126,13 +126,44 @@ li {
 .card {
     margin-top: 20px;
     box-shadow: 3, 4, 4, 4;
+    transition: transform .15s;
+}
+
+.card:hover {
+    transform: scale(1.015);
 }
 
 .card-2 {
     margin-top: 20px;
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px);
-    background-color: #ffffff;;
+    background-color: #ffffff;
     height: 70px;
+    transition: transform .15s;
+}
+
+.card-2actief {
+    margin-top: 20px;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px);
+    background-color: #6200EE;
+    height: 70px;
+    transition: transform .15s;
+}
+
+.card-2actief:hover {
+    transform: scale(1.015);
+}
+
+.card-2actief h6 {
+    color: rgb(251, 251, 251);
+}
+
+.card-2:hover {
+    transform: scale(1.015);
+}
+
+.card-2:active {
+    background-color: #6200EE;
+    transition: transform .15s;
 }
 
 .card-header {
@@ -228,6 +259,14 @@ li {
     box-shadow: 0 33px 0 0 #6200EE;
 }
 
+#underline2d{
+    background: transparent;
+    border-radius: 10px;
+    height: 6px;
+    width: 110px;
+    box-shadow: 0 33px 0 0 rgb(251, 251, 251);
+}
+
 #underline3b {
     background: transparent;
     border-radius: 10px;
@@ -264,9 +303,17 @@ li {
     background: transparent;
     border-radius: 10px;
     /*border-left: 6px solid red;*/
-    height: 130px;
+    height: 125px;
     width: 6px;
-    box-shadow: -33px 0 0 0 #D4BFF9;
+    box-shadow: -7px 0 0 0 #D4BFF9;
+}
+
+.intro_facilitator {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: -125px;
+    padding-left: 25px;
+    padding-right: 30px;
 }
 
 .checklist {
@@ -280,4 +327,17 @@ li {
 
 .form-check-input {
     margin-left: -25px;
+}
+
+.voorbereiden {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.voorbereiden p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
 }

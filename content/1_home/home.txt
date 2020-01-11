@@ -130,7 +130,7 @@ Deelnemer: Deelnemer
 
 ----
 
-Text-facilitator: De facilitator is de belangrijkste persoon in de Design Sprint. Hij/zij zorgt ervoor dat het team snapt wat de Design Sprint inhoudt en begeleidt hun stap voor stap door het proces heen.
+Text-facilitator: De facilitator zorgt ervoor dat het team snapt wat de Design Sprint inhoudt en begeleidt ze stap voor stap door de Sprint.
 
 ----
 
