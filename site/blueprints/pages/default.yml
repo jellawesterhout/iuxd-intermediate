@@ -125,6 +125,10 @@ fields:
     label: deelnemer
     type: textarea
     size: small
+  text_facilitator:
+    label: text_facilitator
+    type: textarea
+    size: small
   title_verloop:
     label: title_verloop
     type: textarea
