@@ -16,19 +16,40 @@
   </head>
 
   <body>
-    <div class="container margin">
-      <div class="row">
-        <div class="col-md-6" style="padding-right: 50px;">
-          <h5><?= $page->title_1() ?></h5>
-          <p><?= $page->wat()->kirbytext() ?></p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/images/img1.png" style="width: 100%;"/>
+    <div class="jumbotron jumbotron-fluid header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2 style="margin-top: 30px; margin-bottom: 30px; color: rgb(251, 251, 251);"><?= $page->title_header () ?></h2>
+            <p style="color: rgb(251, 251, 251);"><?= $page->p_header () ?></p>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/visual1.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid margin">
+    <!---------- I N T R O ---------->
+    <div class="container margin">
+      <div class="row justify-content-end">
+        <div class="col-md-8">
+          <h5><?= $page->title_1 () ?></h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="border-left2"></div>
+          <h6 class="intro_designsprints"><?= $page->intro_1 () ?></h6>
+        </div>
+        <div class="col-md-8">
+          <p style="margin-top: -16px;"><?= $page->wat()->kirbytext() ?></p>
+        </div>
+      </div>
+    </div>
+
+    <!---------- U S P ---------->
+    <div class="jumbotron-b jumbotron-fluid margin">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-md-2 flex direction">
@@ -55,34 +76,70 @@
       </div>
     </div>
 
+    <!---------- K W A L I T E I T ---------->
     <div class="container margin">
       <div class="row">
         <div class="col-6">
-          <h5><?= $page->title_2() ?></h5>
-          <ul style="padding-right: 50px;">
-            <li><?= $page->wanneer_1() ?></li>
-            <li><?= $page->wanneer_2() ?></li>
-            <li><?= $page->wanneer_3() ?></li>
-            <li><?= $page->wanneer_4() ?></li>
-            <li><?= $page->wanneer_5() ?></li>
-            <li><?= $page->wanneer_6() ?></li>
-          </ul>
+          <img src="assets/images/visual3.png" style="width: 100%; padding-right: 25px; position: absolute;"/>
         </div>
         <div class="col-6">
-          <img src="assets/images/placeholder_1.png" style="width: 100%;"/>
+          <h5><?= $page->title_2() ?></h5>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 checklist" style="margin-top:10px;">
+          <div style="padding-top: 20px; padding-bottom: 10px;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_1() ?></p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_2() ?></p>              
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_3() ?></p>              
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_4() ?></p>             
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_5() ?></p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p><?= $page->wanneer_6() ?></p>
+              </label>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!---------- W I E   D O E N   M E E ---------->
     <div class="hero">
-      <div class="container margin flex">
-        <div class="hero-left margin">
+      <div class="container margin2 flex">
+        <div class="hero-left margin2">
           <div class="col">
             <h5><?= $page->title_deelnemers() ?></h5>
             <p><?= $page->deelnemers_introtekst()->kirbytext() ?></p>
           </div>
         </div>
-        <div class="hero-right margin">
+        <div class="hero-right margin2">
           <div class="col-md-12 offset-md-1">
             <!--Accordion wrapper-->
             <div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
@@ -204,9 +261,13 @@
 
     <!---------- K E U Z E ---------->
     <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col">
-          <h5 class="text-center"><?= $page->title_keuze() ?></h5>  
+      <div class="row">
+        <div class="col-6">
+          <h5><?= $page->title_keuze() ?></h5> 
+          <p><?= $page->zaterdag_description () ?></p> 
+        </div>
+        <div class="col-6">
+          <img src="assets/images/visual2.png" style="width: 100%; position: absolute;"/>
         </div>
       </div>
 
@@ -215,14 +276,15 @@
     <!---------- F A C I L I T A T O R ---------->
     <div class="container targetdivs" id="facilitator-div">
 
-      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
-        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+      <!--- B U T T O N S --->
+      <div class="row" style="margin-bottom: 150px;">
+        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -230,91 +292,93 @@
         </div>
       </div>
 
+      <!--- C H E C K L I S T --->
       <div class="row">
         <div class="col-4">
           <div id="border-left"></div>
           <h6 class="intro_facilitator"><?= $page->text_facilitator () ?></h6>
         </div>
         <div class="col-8 checklist">
-          <h6 style="margin-left: 15px; margin-top: 30px;">Wat heb je nodig voor een Design Sprint?</h6>
+          <h6 style="margin-left: 15px; margin-top: 30px;"><?= $page->nodig_facilitator_title () ?></h6>
           <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Een whiteboard en markers in verschillende kleuren</p>
+                <p><?= $page->nodig_facilitator_1 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Post-its in verschillende kleuren</p>
+                <p><?= $page->nodig_facilitator_2 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Genoeg A4 en A3-papier</p>
+                <p><?= $page->nodig_facilitator_3 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Stiften in verschillende kleuren</p>
+                <p><?= $page->nodig_facilitator_4 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Voting dots (cirkelvormige stickers)</p>
+                <p><?= $page->nodig_facilitator_5 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Een timer (geen telefoon)</p>
+                <p><?= $page->nodig_facilitator_6 () ?></p>
               </label>
             </div>
           </div>
         </div>
       </div>
 
+      <!--- V O O R B E R E I D E N --->
       <div class="row justify-content-end">
         <div class="col-8">
-          <h6 style="margin-top: 60px;">Hoe bereid je een Design Sprint voor?</h6>
+          <h6 style="margin-top: 60px;"><?= $page->voorbereiden_facilitator_title () ?></h6>
         </div>  
       </div>
-
       <div class="row justify-content-end">
         <div class="col-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Lees het Sprint boek van Jake Knapp</p>
+            <p><?= $page->voorbereiden_facilitator_1 () ?></p>
           </div>        
         </div> 
         <div class="col-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Stel gedrags- regels op voor tijdens de Sprint</p>
+            <p><?= $page->voorbereiden_facilitator_2 () ?></p>
           </div>        
         </div> 
         <div class="col-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een ruimte met daglicht en whiteboards</p>
+            <p><?= $page->voorbereiden_facilitator_3 () ?></p>
           </div>        
         </div> 
         <div class="col-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een test- ruimte en zoek respondenten</p>
+            <p><?= $page->voorbereiden_facilitator_4 () ?></p>
           </div>        
         </div>  
       </div>
 
+      <!--- S K I L L S --->
       <div class="row justify-content-end">
         <div class="col-8">
-          <h6 style="margin-top: 60px; margin-bottom: 20px;">Welke skills heb je nodig?</h6>
-          <p>Als facilitator zijn er een aantal belangrijke skills die je in huis moet hebben. Ten eerste is het belangrijk dat de facilitator een echte leider is en dat hij/zij het overzicht kan bewaren. Daarnaast is de facilitator een neutraal persoon en moet hij/zij in staat zijn om te bemiddelen tussen verschillende partijen, om risico's te nemen en om knopen door te hakken. Ook is de facilitator verantwoordelijk voor het werk van het team en moet hij/zij snappen wanneer het team aanmoediging nodig heeft of wanneer ze juist met rust gelaten moeten worden.</p>
+          <h6 style="margin-top: 60px; margin-bottom: 20px;"><?= $page->skills_facilitator_title () ?></h6>
+          <p><?= $page->skills_facilitator_p () ?></p>
         </div>
       </div>
     </div>
@@ -323,14 +387,15 @@
     <!---------- D E E L N E M E R ---------->
     <div class="container targetdivs" id="deelnemer-div">
 
-      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
-        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+      <!--- B U T T O N S --->
+      <div class="row" style="margin-bottom: 150px;">
+        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -338,133 +403,45 @@
         </div>
       </div>
 
+      <!--- C H E C K L I S T --->
       <div class="row">
         <div class="col-4">
           <div id="border-left"></div>
-          <h6 class="intro_facilitator">De deelnemers voeren de stappen van de Design Sprint uit en bedenken en visualiseren uiteindelijk een tof concept.</h6>
+            <h6 class="intro_facilitator"><?= $page->border_deelnemer () ?></h6>
         </div>
         <div class="col-8 checklist">
-          <h6 style="margin-left: 15px; margin-top: 30px;">Wat heb je nodig voor een Design Sprint?</h6>
+          <h6 style="margin-left: 15px; margin-top: 30px;"><?= $page->nodig_facilitator_title () ?></h6>
           <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Een laptop met tools en programma's die bij jouw rol passen</p>
+                <p><?= $page->nodig_deelnemer_1 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>Een lichte en gezonde lunch indien dit niet wordt verzorgd</p>
+                <p><?= $page->nodig_deelnemer_2 () ?></p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label" for="defaultCheck1">
-                <p>De juiste mindset!</p>
+                <p><?= $page->nodig_deelnemer_3 () ?></p>
               </label>
             </div>
           </div>
         </div>
       </div>
 
+      <!--- S K I L L S --->
       <div class="row justify-content-end">
         <div class="col-8">
-          <h6 style="margin-top: 60px;">Hoe bereid je een Design Sprint voor?</h6>
-        </div>  
-      </div>
-
-      <div class="row justify-content-end">
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Lees het Sprint boek van Jake Knapp</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Stel gedrags- regels op voor tijdens de Sprint</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een ruimte met daglicht en whiteboards</p>
-          </div>        
-        </div> 
-        <div class="col-2">
-          <div class="voorbereiden shadow-sm">
-            <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
-            <p>Boek een test- ruimte en zoek respondenten</p>
-          </div>        
-        </div>  
-      </div>
-
-      <div class="row justify-content-end">
-        <div class="col-8">
-          <h6 style="margin-top: 60px; margin-bottom: 20px;">Welke skills heb je nodig?</h6>
-          <p>Als deelnemer is de juiste mindset het aller belangrijkste bij een Design Sprint. Ten eerste moeten de deelnemers alle kennis en ideeën die ze al hebben loslaten en openminded durven zijn. Daarnaast zijn Sprint dagen vaak erg lang en kunnen ze uitlopen. Daarom moeten de deelnemers er tijd voor over hebben en goed hun focus kunnen behouden. Verder is het heel belangrijk dat iedereen de "show-don't-tell" aanpak nastreeft en zoveel mogelijk schetst en tekent. Specifieke skills verschillen per rol, daarom moeten de deelnemers goed kunnen samenwerken.</p>
+          <h6 style="margin-top: 60px; margin-bottom: 20px;"><?= $page->skills_deelnemer_title () ?></h6>
+          <p><?= $page->skills_deelnemer_p () ?></p>
         </div>
       </div>
     </div>
-
-    <!--
-    <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col-7">
-          <h5 class="text-center">Facilitator</h5>
-        </div>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie1.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie1() ?></h6>
-        </div>
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie2.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 30px;"><?= $page->wie2() ?></h6>
-        </div>  
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-5">
-          <p class="text-justify">Dit zijn de leidende rollen in de sprint. De facilitator zorgt ervoor dat het team de juiste stappen volgt om de sprint te voltooien. De product owner is van de klant, hij heeft veel kennis en waakt over de kwaliteit van de uitkomst.
-          </p>     
-        </div>  
-      </div>    
-    </div>
-
-    <div class="container margin">
-      <div class="row justify-content-md-center">
-        <div class="col-7">
-          <h5 class="text-center">Deelnemer</h5>
-        </div> 
-      </div>
-      <div class="row justify-content-md-center"> 
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie3.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie3() ?></h6>
-        </div>
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie4.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie4() ?></h6>
-        </div>
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie5.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie5() ?></h6>
-        </div>
-        <div class="col-2 flex direction">
-          <img src="assets/images/wie6.png" style="height: 40%; margin: auto; margin-bottom: 15px; margin-top: 10px;"/>
-          <h6 class="wie_description text-center" style="margin-bottom: 40px;"><?= $page->wie6() ?></h6>
-        </div>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-5">
-          <p class="text-justify">Dit zijn de mensen die alle ideeën visualiseren. Ze zorgen ervoor dat er zoveel mogelijk wordt geschetst en getekend om de ‘show-don’t-tell’ aanpak na te streven. Daarnaast werken ze het uiteindelijke idee uit tot een testbaar prototype.
-          </p>     
-        </div>  
-      </div>    
-    </div> -->
 
     <!---------- T R E L L O ---------->
     <div class="hero">

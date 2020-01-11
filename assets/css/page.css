@@ -86,12 +86,42 @@ li {
 }
 
 .margin {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
+.margin2 {
+    margin-top: 100px;
+}
+
+.header {
+    height: 70vh;
+}
+
+#border-left2 {
+    background: transparent;
+    border-radius: 10px;
+    /*border-left: 6px solid red;*/
+    height: 155px;
+    width: 6px;
+    box-shadow: -7px 0 0 0 #6200EE;
+}
+
+.intro_designsprints {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: -155px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
 
 .jumbotron {
+    background-color: #6200EE;
+}
+
+.jumbotron-b {
     background-color: #EDE7F6;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .flex {
@@ -305,14 +335,14 @@ li {
     /*border-left: 6px solid red;*/
     height: 125px;
     width: 6px;
-    box-shadow: -7px 0 0 0 #D4BFF9;
+    box-shadow: -7px 0 0 0 #6200EE;
 }
 
 .intro_facilitator {
     font-size: 20px;
     line-height: 1.5em;
     margin-top: -125px;
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 30px;
 }
 

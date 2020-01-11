@@ -1,8 +1,20 @@
 title: Default Page
 preset: page
 fields:
+  title_header:
+    label: title_header
+    type: textarea
+    size: small
+  p_header:
+    label: p_header
+    type: textarea
+    size: small
   title_1:
     label: title_1
+    type: textarea
+    size: small
+  intro_1:
+    label: intro_1
     type: textarea
     size: small
   wat:
@@ -127,6 +139,90 @@ fields:
     size: small
   text_facilitator:
     label: text_facilitator
+    type: textarea
+    size: small
+  nodig_facilitator_title:
+    label: nodig_facilitator_title
+    type: textarea
+    size: small
+  nodig_facilitator_1:
+    label: nodig_facilitator_1
+    type: textarea
+    size: small
+  nodig_facilitator_2:
+    label: nodig_facilitator_2
+    type: textarea
+    size: small
+  nodig_facilitator_3:
+    label: nodig_facilitator_3
+    type: textarea
+    size: small
+  nodig_facilitator_4:
+    label: nodig_facilitator_4
+    type: textarea
+    size: small
+  nodig_facilitator_5:
+    label: nodig_facilitator_5
+    type: textarea
+    size: small
+  nodig_facilitator_6:
+    label: nodig_facilitator_6
+    type: textarea
+    size: small
+  voorbereiden_facilitator_title:
+    label: voorbereiden_facilitator_title
+    type: textarea
+    size: small
+  voorbereiden_facilitator_1:
+    label: voorbereiden_facilitator_1
+    type: textarea
+    size: small
+  voorbereiden_facilitator_2:
+    label: voorbereiden_facilitator_2
+    type: textarea
+    size: small
+  voorbereiden_facilitator_3:
+    label: voorbereiden_facilitator_3
+    type: textarea
+    size: small
+  voorbereiden_facilitator_4:
+    label: voorbereiden_facilitator_4
+    type: textarea
+    size: small
+  skills_facilitator_title:
+    label: skills_facilitator_title
+    type: textarea
+    size: small
+  skills_facilitator_p:
+    label: skills_facilitator_p
+    type: textarea
+    size: small
+  border_deelnemer:
+    label: border_deelnemer
+    type: textarea
+    size: small
+  nodig_deelnemer_title:
+    label: nodig_deelnemer_title
+    type: textarea
+    size: small
+  nodig_deelnemer_1:
+    label: nodig_deelnemer_1
+    type: textarea
+    size: small
+  nodig_deelnemer_2:
+    label: nodig_deelnemer_2
+    type: textarea
+    size: small
+  nodig_deelnemer_3:
+    label: nodig_deelnemer_3
+    type: textarea
+    size: small
+  skills_deelnemer_title:
+    label: skills_deelnemer_title
+    type: textarea
+    size: small
+  skills_deelnemer_p:
+    label: skills_deelnemer_p
     type: textarea
     size: small
   title_verloop:
