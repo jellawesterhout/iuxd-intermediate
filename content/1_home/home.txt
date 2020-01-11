@@ -2,7 +2,19 @@ Title: Design Sprints
 
 ----
 
+Title-header: De Google Design Sprint
+
+----
+
+P-header: Een Design Sprint is een intensieve design-thinking workshop die een team van een vaag concept naar een user-validated prototype brengt in slechts vijf dagen.
+
+----
+
 Title-1: Wat is een Design Sprint?
+
+----
+
+Intro-1: Een design sprint is een proces van 5 dagen wat door multidisciplinaire teams gebruikt wordt voor het beantwoorden van kritische vraagstukken.
 
 ----
 
@@ -134,7 +146,95 @@ Text-facilitator: De facilitator zorgt ervoor dat het team snapt wat de Design S
 
 ----
 
+Nodig-facilitator-title: Wat heb je nodig voor een Design Sprint?
+
+----
+
+Nodig-facilitator-1: Een whiteboard en markers in verschillende kleuren
+
+----
+
+Nodig-facilitator-2: Post-its in verschillende kleuren
+
+----
+
+Nodig-facilitator-3: Genoeg A4 en A3-papier
+
+----
+
+Nodig-facilitator-4: Stiften in verschillende kleuren
+
+----
+
+Nodig-facilitator-5: Voting dots (cirkelvormige stickers)
+
+----
+
+Nodig-facilitator-6: Een timer (geen telefoon)
+
+----
+
+Voorbereiden-facilitator-title: Hoe bereid je een Design Sprint voor?
+
+----
+
+Voorbereiden-facilitator-1: Lees het Sprint boek van Jake Knapp
+
+----
+
+Voorbereiden-facilitator-2: Stel gedrags- regels op voor tijdens de Sprint
+
+----
+
+Voorbereiden-facilitator-3: Boek een ruimte met daglicht en whiteboards
+
+----
+
+Voorbereiden-facilitator-4: Boek een test- ruimte en zoek respondenten
+
+----
+
+Skills-facilitator-title: Welke skills heb je nodig?
+
+----
+
+Skills-facilitator-p: Als facilitator zijn er een aantal belangrijke skills die je in huis moet hebben. Ten eerste is het belangrijk dat de facilitator een echte leider is en dat hij/zij het overzicht kan bewaren. Daarnaast is de facilitator een neutraal persoon en moet hij/zij in staat zijn om te bemiddelen tussen verschillende partijen, om risico's te nemen en om knopen door te hakken. Ook is de facilitator verantwoordelijk voor het werk van het team en moet hij/zij snappen wanneer het team aanmoediging nodig heeft of wanneer ze juist met rust gelaten moeten worden.
+
+----
+
+Border-deelnemer: De deelnemers voeren de stappen van de Design Sprint uit en bedenken en visualiseren uiteindelijk een tof concept.
+
+----
+
+Nodig-deelnemer-title: Wat heb je nodig voor een Design Sprint?
+
+----
+
+Nodig-deelnemer-1: Een laptop met tools en programma's die bij jouw rol passen
+
+----
+
+Nodig-deelnemer-2: Een lichte en gezonde lunch indien dit niet wordt verzorgd
+
+----
+
+Nodig-deelnemer-3: De juiste mindset!
+
+----
+
+Skills-deelnemer-title: Welke skills heb je nodig?
+
+----
+
+Skills-deelnemer-p: Als deelnemer is de juiste mindset het aller belangrijkste bij een Design Sprint. Ten eerste moeten de deelnemers alle kennis en ideeën die ze al hebben loslaten en openminded durven zijn. Daarnaast zijn Sprint dagen vaak erg lang en kunnen ze uitlopen. Daarom moeten de deelnemers er tijd voor over hebben en goed hun focus kunnen behouden. Verder is het heel belangrijk dat iedereen de "show-don't-tell" aanpak nastreeft en zoveel mogelijk schetst en tekent. Specifieke skills verschillen per rol, daarom moeten de deelnemers goed kunnen samenwerken.
+
+----
+
 Title-verloop: Hoe verloopt een Google Design Sprint?
+
+----
+
+Border-facilitator: De deelnemers voeren de stappen van de Design Sprint uit en bedenken en visualiseren uiteindelijk een tof concept.
 
 ----
 
