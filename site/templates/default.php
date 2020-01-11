@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/page.css">
     <link rel="stylesheet" href="assets/css/animate.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <!--<title><?= $page->title() ?></title>-->
   </head>
 
@@ -207,24 +209,27 @@
           <h5 class="text-center"><?= $page->title_keuze() ?></h5>  
         </div>
       </div>
-      <div class="row justify-content-md-center">
-        <div class="col-4">
-          <div class="card-2 card-header2 shadow-sm d-flex flex-row">
+
+    </div>
+
+    <!---------- F A C I L I T A T O R ---------->
+    <div class="container targetdivs" id="facilitator-div">
+
+      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
+        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+          <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
-            <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
+            <h6 id="underline2d"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card-2 card-header2 shadow-sm d-flex flex-row" role="tab" id="heading14">
+        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+          <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
           </div>
         </div>
       </div>
-    </div>
 
-    <!---------- F A C I L I T A T O R ---------->
-    <div class="container" style="margin-top: 80px;">
       <div class="row">
         <div class="col-4">
           <div id="border-left"></div>
@@ -312,8 +317,96 @@
           <p>Als facilitator zijn er een aantal belangrijke skills die je in huis moet hebben. Ten eerste is het belangrijk dat de facilitator een echte leider is en dat hij/zij het overzicht kan bewaren. Daarnaast is de facilitator een neutraal persoon en moet hij/zij in staat zijn om te bemiddelen tussen verschillende partijen, om risico's te nemen en om knopen door te hakken. Ook is de facilitator verantwoordelijk voor het werk van het team en moet hij/zij snappen wanneer het team aanmoediging nodig heeft of wanneer ze juist met rust gelaten moeten worden.</p>
         </div>
       </div>
+    </div>
 
 
+    <!---------- D E E L N E M E R ---------->
+    <div class="container targetdivs" id="deelnemer-div">
+
+      <div class="row justify-content-md-center" style="margin-bottom: 80px;">
+        <div class="col-4" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+          <div class="card-2 card-header2 shadow-sm d-flex flex-row">
+            <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+            <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
+          </div>
+        </div>
+        <div class="col-4" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+          <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
+            <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
+            <h6 id="underline2d"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <div id="border-left"></div>
+          <h6 class="intro_facilitator">De deelnemers voeren de stappen van de Design Sprint uit en bedenken en visualiseren uiteindelijk een tof concept.</h6>
+        </div>
+        <div class="col-8 checklist">
+          <h6 style="margin-left: 15px; margin-top: 30px;">Wat heb je nodig voor een Design Sprint?</h6>
+          <div style="padding-top: 20px; padding-bottom: 10px;">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Een laptop met tools en programma's die bij jouw rol passen</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Een lichte en gezonde lunch indien dit niet wordt verzorgd</p>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>De juiste mindset!</p>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 60px;">Hoe bereid je een Design Sprint voor?</h6>
+        </div>  
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Lees het Sprint boek van Jake Knapp</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Stel gedrags- regels op voor tijdens de Sprint</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Boek een ruimte met daglicht en whiteboards</p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p>Boek een test- ruimte en zoek respondenten</p>
+          </div>        
+        </div>  
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 60px; margin-bottom: 20px;">Welke skills heb je nodig?</h6>
+          <p>Als deelnemer is de juiste mindset het aller belangrijkste bij een Design Sprint. Ten eerste moeten de deelnemers alle kennis en ideeën die ze al hebben loslaten en openminded durven zijn. Daarnaast zijn Sprint dagen vaak erg lang en kunnen ze uitlopen. Daarom moeten de deelnemers er tijd voor over hebben en goed hun focus kunnen behouden. Verder is het heel belangrijk dat iedereen de "show-don't-tell" aanpak nastreeft en zoveel mogelijk schetst en tekent. Specifieke skills verschillen per rol, daarom moeten de deelnemers goed kunnen samenwerken.</p>
+        </div>
+      </div>
     </div>
 
     <!--
@@ -437,7 +530,17 @@
           }); 
       });
       /**********************Change color of center aligned animated content small Circle  "END"************************************/
+    
+      /********** CHANGE CONTENT **********/
+      $("#btn1, #btn2").on("click", function(e){
+        e.preventDefault();
+        var target = $(this).data("target");
+        $(".targetdivs").css("display", "none");
+        $("#"+target+"-div").css("display", "block");
+      });
+
     </script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
