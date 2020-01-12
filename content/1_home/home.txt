@@ -38,11 +38,43 @@ Usp3: Houd je team gefocust en enthousiast
 
 ----
 
-Usp4: Komt er achter hoe je doelgroep op het product reageert
+Usp4: Kom er achter hoe de users op het product reageren
 
 ----
 
 Usp5: Krijg een duidelijke koers; een product strategie en -visie
+
+----
+
+Waarom-title: Waarom een Design Sprint?
+
+----
+
+Waarvoor-title: Waarvoor gebruik je een Design Sprint?
+
+----
+
+Waarvoor-1: Voor de ontwikkeling van een nieuw product
+
+----
+
+Waarvoor-2: Voor het verbeteren van een bestaand product
+
+----
+
+Waarvoor-3: Voor het toevoegen van nieuwe productfunctionaliteiten
+
+----
+
+Waarvoor-4: Voor wanneer je een nieuwe markt wil betreden of doelgroep aan wilt spreken
+
+----
+
+Wanneer-title: Wanneer gebruik je een Design Sprint?
+
+----
+
+Wanneer-p: Een Design Sprint kan op verschillende momenten in het ontwerpproces worden ingezet. In de meeste gevallen wordt de Sprint ingezet om een project te kickstarten of doorstarten.
 
 ----
 
@@ -202,6 +234,38 @@ Skills-facilitator-p: Als facilitator zijn er een aantal belangrijke skills die 
 
 ----
 
+Links-title: Handige resources
+
+----
+
+Links-list-1: https://www.thesprintbook.com/
+
+----
+
+Links-list-2: https://www.thesprintbook.com/how
+
+----
+
+Links-list-3: https://www.gv.com/sprint/
+
+----
+
+Links-list-4: https://hike.one/update/your-first-design-sprint-do-these-3-things-first
+
+----
+
+Links-list-5: https://designsprintkit.withgoogle.com/introduction/overview
+
+----
+
+Links-list-1b: https://www.thesprintbook.com/how
+
+----
+
+Links-list-2b: https://designsprintkit.withgoogle.com/introduction/overview
+
+----
+
 Border-deelnemer: De deelnemers voeren de stappen van de Design Sprint uit en bedenken en visualiseren uiteindelijk een tof concept.
 
 ----
@@ -231,6 +295,20 @@ Skills-deelnemer-p: Als deelnemer is de juiste mindset het aller belangrijkste b
 ----
 
 Title-verloop: Hoe verloopt een Google Design Sprint?
+
+----
+
+P-verloop: Elke dag van de Google Design Sprint dient voor iets anders. Zo wordt maandag het vraagstuk ontleed en wordt er dinsdag nagedacht over zoveel mogelijk creatieve oplossingen voor het probleem. Om de vijf dagen van de Sprint inzichtelijk te maken zijn ze in een Trellobord verwerkt. Hier staat per dag beschreven welke onderdelen er moeten worden uitgevoerd.
+
+----
+
+Links-list:
+
+- https://www.thesprintbook.com/
+- https://www.thesprintbook.com/how 
+- https://www.gv.com/sprint/
+- https://hike.one/update/your-first-design-sprint-do-these-3-things-first
+- https://designsprintkit.withgoogle.com/introduction/overview
 
 ----
 

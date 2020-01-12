@@ -69,6 +69,10 @@ p {
     /*text-align: justify;*/
 }
 
+a {
+    color: #000000;
+}
+
 /*li {
     font-family: Gilroy-Bold;
     font-size: 20px;
@@ -86,11 +90,11 @@ li {
 }
 
 .margin {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .margin2 {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .header {
@@ -120,8 +124,8 @@ li {
 
 .jumbotron-b {
     background-color: #EDE7F6;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .flex {
@@ -351,6 +355,12 @@ li {
     border-radius: 4px;
 }
 
+.checklist2 {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+    width: 80%;
+}
+
 .form-check {
     margin-left: 20px;
 }
@@ -364,6 +374,7 @@ li {
     border-radius: 4px;
     margin-top: 30px;
     padding: 20px;
+    width: 160px;
 }
 
 .voorbereiden p {
