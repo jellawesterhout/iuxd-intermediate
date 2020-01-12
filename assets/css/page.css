@@ -90,11 +90,11 @@ li {
 }
 
 .margin {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .margin2 {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .header {
@@ -124,8 +124,8 @@ li {
 
 .jumbotron-b {
     background-color: #EDE7F6;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .flex {
@@ -374,6 +374,7 @@ li {
     border-radius: 4px;
     margin-top: 30px;
     padding: 20px;
+    width: 160px;
 }
 
 .voorbereiden p {

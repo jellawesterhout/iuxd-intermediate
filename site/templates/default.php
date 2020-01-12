@@ -19,19 +19,19 @@
     <div class="jumbotron jumbotron-fluid header">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <h2 style="margin-top: 30px; margin-bottom: 30px; color: rgb(251, 251, 251);"><?= $page->title_header () ?></h2>
             <p style="color: rgb(251, 251, 251);"><?= $page->p_header () ?></p>
           </div>
-          <div class="col-6">
-            <img src="assets/images/visual1.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
+          <div class="col-md-6">
+            <img src="assets/images/visual7.png" style="width: 100%; margin-left: 30px; opacity: 0.8;"/>
           </div>
         </div>
       </div>
     </div>
 
     <!---------- I N T R O ---------->
-    <div class="container margin">
+    <div class="container margin2">
       <div class="row justify-content-end">
         <div class="col-md-8">
           <h5><?= $page->title_1 () ?></h5>
@@ -47,30 +47,30 @@
         </div>
       </div>
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 28px;"><?= $page->waarom_title () ?></h6>
         </div>  
       </div>
       <div class="row justify-content-end">
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/usp1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->usp1() ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/usp2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->usp2() ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/usp3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->usp3() ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/usp4.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->usp4() ?></p>
@@ -83,17 +83,17 @@
     <div class="jumbotron-b jumbotron-fluid margin">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <h6><?= $page->waarvoor_title() ?></h6>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <h6><?= $page->wanneer_title() ?></h6>
           </div>
         </div>
         <div class="row">
-          <div class="col-5 checklist2" style="margin-top: 20px;">
+          <div class="col-md-5 checklist2" style="margin-top: 20px;">
             <div style="padding-top: 20px; padding-bottom: 10px; padding-right: 10px;">
-              <ul>
+              <ul style="padding-left: 30px;">
                 <li><?= $page->waarvoor_1() ?></li>
                 <li><?= $page->waarvoor_2() ?></li>
                 <li><?= $page->waarvoor_3() ?></li>
@@ -112,15 +112,15 @@
     <!---------- K W A L I T E I T ---------->
     <div class="container margin">
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
           <img src="assets/images/visual3.png" style="width: 100%; padding-right: 25px; position: absolute;"/>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <h5><?= $page->title_2() ?></h5>
         </div>
       </div>
       <div class="row justify-content-end">
-        <div class="col-6 checklist" style="margin-top:10px;">
+        <div class="col-md-6 checklist" style="margin-top:10px;">
           <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -167,7 +167,7 @@
     <div class="hero">
       <div class="container margin2 flex">
         <div class="hero-left margin2">
-          <div class="col">
+          <div class="col-md-12">
             <h5><?= $page->title_deelnemers() ?></h5>
             <p><?= $page->deelnemers_introtekst()->kirbytext() ?></p>
           </div>
@@ -295,11 +295,11 @@
     <!---------- K E U Z E ---------->
     <div class="container margin">
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
           <h5><?= $page->title_keuze() ?></h5> 
           <p><?= $page->zaterdag_description () ?></p> 
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <img src="assets/images/visual2.png" style="width: 100%; position: absolute;"/>
         </div>
       </div>
@@ -311,13 +311,13 @@
 
       <!--- B U T T O N S --->
       <div class="row" style="margin-bottom: 150px;">
-        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+        <div class="col-md-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-md-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -327,11 +327,11 @@
 
       <!--- C H E C K L I S T --->
       <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
           <div id="border-left"></div>
           <h6 class="intro_facilitator"><?= $page->text_facilitator () ?></h6>
         </div>
-        <div class="col-8 checklist">
+        <div class="col-md-8 checklist">
           <h6 style="margin-left: 15px; margin-top: 30px;"><?= $page->nodig_facilitator_title () ?></h6>
           <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
@@ -376,30 +376,30 @@
 
       <!--- V O O R B E R E I D E N --->
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 60px;"><?= $page->voorbereiden_facilitator_title () ?></h6>
         </div>  
       </div>
       <div class="row justify-content-end">
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->voorbereiden_facilitator_1 () ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->voorbereiden_facilitator_2 () ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/voorbereiden3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->voorbereiden_facilitator_3 () ?></p>
           </div>        
         </div> 
-        <div class="col-2">
+        <div class="col-md-2">
           <div class="voorbereiden shadow-sm">
             <img src="assets/images/wie2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
             <p><?= $page->voorbereiden_facilitator_4 () ?></p>
@@ -409,16 +409,16 @@
 
       <!--- S K I L L S --->
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 60px; margin-bottom: 20px;"><?= $page->skills_facilitator_title () ?></h6>
           <p><?= $page->skills_facilitator_p () ?></p>
         </div>
       </div>
 
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 44px; margin-bottom: 20px;"><?= $page->links_title () ?></h6>
-          <ul>
+          <ul style="padding-left: 20px;">
             <li><a href="https://www.thesprintbook.com/"><?= $page->links_list_1 () ?></a></li>
             <li><a href="https://www.thesprintbook.com/how"><?= $page->links_list_2 () ?></a></li>
             <li><a href="https://www.gv.com/sprint/"><?= $page->links_list_3 () ?></a></li>
@@ -435,13 +435,13 @@
 
       <!--- B U T T O N S --->
       <div class="row" style="margin-bottom: 150px;">
-        <div class="col-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
+        <div class="col-md-3" id="btn1" href="#" data-target="facilitator" style="cursor:pointer">
           <div class="card-2 card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie1.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2c"><span class="align-middle"><?= $page->facilitator () ?></a></span></h6>
           </div>
         </div>
-        <div class="col-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
+        <div class="col-md-3" id="btn2" href="#" data-target="deelnemer" style="cursor:pointer">
           <div class="card-2actief card-header2 shadow-sm d-flex flex-row">
             <img src="assets/images/wie3.png" style="width: 35px; height: 35px; margin: auto; margin-left: 0px; margin-right: 20px;"/>
             <h6 id="underline2d"><span class="align-middle"><?= $page->deelnemer () ?></a></span></h6>
@@ -451,11 +451,11 @@
 
       <!--- C H E C K L I S T --->
       <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
           <div id="border-left"></div>
             <h6 class="intro_facilitator"><?= $page->border_deelnemer () ?></h6>
         </div>
-        <div class="col-8 checklist">
+        <div class="col-md-8 checklist">
           <h6 style="margin-left: 15px; margin-top: 30px;"><?= $page->nodig_facilitator_title () ?></h6>
           <div style="padding-top: 20px; padding-bottom: 10px;">
             <div class="form-check">
@@ -482,16 +482,16 @@
 
       <!--- S K I L L S --->
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 60px; margin-bottom: 20px;"><?= $page->skills_deelnemer_title () ?></h6>
           <p><?= $page->skills_deelnemer_p () ?></p>
         </div>
       </div>
 
       <div class="row justify-content-end">
-        <div class="col-8">
+        <div class="col-md-8">
           <h6 style="margin-top: 44px; margin-bottom: 20px;"><?= $page->links_title () ?></h6>
-          <ul>
+          <ul style="padding-left: 20px;">
             <li><a href="https://www.thesprintbook.com/how"><?= $page->links_list_1b () ?></a></li>
             <li><a href="https://designsprintkit.withgoogle.com/introduction/overview"><?= $page->links_list_2b () ?></a></li>
           </ul>
@@ -503,14 +503,14 @@
     <div class="hero">
       <div class="container margin flex">
         <div class="hero-left margin">
-          <div class="col" style="padding-bottom: 100px;">
+          <div class="col-md-12" style="padding-bottom: 150px;">
             <h5><?= $page->title_verloop() ?></h5>
             <p><?= $page->p_verloop () ?></p>
             <h6><a href="https://trello.com/b/zbIWs13g/google-sprint-iii" style="color: #6200EE; font-size: 17px;">Klik hier voor het Trellobord</a></h6>
           </div>
         </div>
         <div class="hero-right margin">
-          <div class="col offset-md-1">
+          <div class="col-md-12 offset-md-1">
             <img src="assets/images/visual6.png" class="shadow-sm" style="width: 110%; border-radius: 3px;"/>
           </div>
         </div>
@@ -521,13 +521,13 @@
     <div class="jumbotron jumbotron-fluid" style="padding-top: 100px; padding-bottom: 100px; margin-bottom: 0px;">
       <div class="container">
         <div class="row">
-          <div class="col-5">
+          <div class="col-md-5">
             <img src="assets/images/footer1.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
           </div>
-          <div class="col-md-3 offset-md-1">
+          <div class="col-md-3 offset-md-1 align-self-center">
             <img src="assets/images/footer2.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 align-self-center">
             <img src="assets/images/footer3.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
           </div>
         </div>
