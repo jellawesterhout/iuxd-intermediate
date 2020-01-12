@@ -41,6 +41,38 @@ fields:
     label: usp5
     type: textarea
     size: small
+  waarom_title:
+    label: waarom_title
+    type: textarea
+    size: small
+  waarvoor_title:
+    label: waarvoor_title
+    type: textarea
+    size: small
+  waarvoor_1:
+    label: waarvoor_1
+    type: textarea
+    size: small
+  waarvoor_2:
+    label: waarvoor_2
+    type: textarea
+    size: small
+  waarvoor_3:
+    label: waarvoor_3
+    type: textarea
+    size: small
+  waarvoor_4:
+    label: waarvoor_4
+    type: textarea
+    size: small
+  wanneer_title:
+    label: wanneer_title
+    type: textarea
+    size: small
+  wanneer_p:
+    label: wanneer_p
+    type: textarea
+    size: small
   title_2:
     label: title_2
     type: textarea

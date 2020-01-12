@@ -46,31 +46,64 @@
           <p style="margin-top: -16px;"><?= $page->wat()->kirbytext() ?></p>
         </div>
       </div>
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 28px;"><?= $page->waarom_title () ?></h6>
+        </div>  
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/usp1.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p><?= $page->usp1() ?></p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/usp2.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p><?= $page->usp2() ?></p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/usp3.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p><?= $page->usp3() ?></p>
+          </div>        
+        </div> 
+        <div class="col-2">
+          <div class="voorbereiden shadow-sm">
+            <img src="assets/images/usp4.png" style="width: 45px; height: 45px; margin-bottom: 15px;"/>
+            <p><?= $page->usp4() ?></p>
+          </div>        
+        </div>  
+      </div>
     </div>
 
     <!---------- U S P ---------->
     <div class="jumbotron-b jumbotron-fluid margin">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-md-2 flex direction">
-            <img src="assets/images/usp1.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
-            <h7 class="text-center"><?= $page->usp1() ?></h7>
+        <div class="row">
+          <div class="col-6">
+            <h6><?= $page->waarvoor_title() ?></h6>
           </div>
-          <div class="col-md-2 flex direction">
-            <img src="assets/images/usp2.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
-            <h7 class="text-center"><?= $page->usp2() ?></h7>
+          <div class="col-6">
+            <h6><?= $page->wanneer_title() ?></h6>
           </div>
-          <div class="col-md-2 flex direction">
-            <img src="assets/images/usp3.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
-            <h7 class="text-center"><?= $page->usp3() ?></h7>
+        </div>
+        <div class="row">
+          <div class="col-5 checklist2" style="margin-top: 20px;">
+            <div style="padding-top: 20px; padding-bottom: 10px; padding-right: 10px;">
+              <ul>
+                <li><?= $page->waarvoor_1() ?></li>
+                <li><?= $page->waarvoor_2() ?></li>
+                <li><?= $page->waarvoor_3() ?></li>
+                <li><?= $page->waarvoor_4() ?></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-2 flex direction">
-            <img src="assets/images/usp4.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
-            <h7 class="text-center"><?= $page->usp4() ?></h7>
-          </div>
-          <div class="col-md-2 flex direction">
-            <img src="assets/images/usp5.png" style="width: 40%; margin: auto; margin-bottom: 30px;"/>
-            <h7 class="text-center"><?= $page->usp5() ?></h7>
+          <div class="col-md-6 offset-md-1" style="margin-top: 20px;">
+            <p><?= $page->wanneer_p() ?></p>
+            <img src="assets/images/visual5.png" style="width: 100%; padding-right: 25px; position: absolute;"/>
           </div>
         </div>
       </div>
@@ -453,7 +486,7 @@
         </div>
         <div class="hero-right margin">
           <div class="col offset-md-1">
-            <img src="assets/images/trello.png" style="width: 150%;"/>
+            <img src="assets/images/visual6.png" class="shadow-sm" style="width: 110%; border-radius: 3px;"/>
           </div>
         </div>
       </div>

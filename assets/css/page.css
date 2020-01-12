@@ -120,8 +120,8 @@ li {
 
 .jumbotron-b {
     background-color: #EDE7F6;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .flex {
@@ -349,6 +349,12 @@ li {
 .checklist {
     background-color: rgba(255, 255, 255, 80%);
     border-radius: 4px;
+}
+
+.checklist2 {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+    width: 80%;
 }
 
 .form-check {

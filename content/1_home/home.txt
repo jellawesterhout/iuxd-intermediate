@@ -38,11 +38,43 @@ Usp3: Houd je team gefocust en enthousiast
 
 ----
 
-Usp4: Komt er achter hoe je doelgroep op het product reageert
+Usp4: Kom er achter hoe de users op het product reageren
 
 ----
 
 Usp5: Krijg een duidelijke koers; een product strategie en -visie
+
+----
+
+Waarom-title: Waarom een Design Sprint?
+
+----
+
+Waarvoor-title: Waarvoor gebruik je een Design Sprint?
+
+----
+
+Waarvoor-1: Voor de ontwikkeling van een nieuw product
+
+----
+
+Waarvoor-2: Voor het verbeteren van een bestaand product
+
+----
+
+Waarvoor-3: Voor het toevoegen van nieuwe productfunctionaliteiten
+
+----
+
+Waarvoor-4: Voor wanneer je een nieuwe markt wil betreden of doelgroep aan wilt spreken
+
+----
+
+Wanneer-title: Wanneer gebruik je een Design Sprint?
+
+----
+
+Wanneer-p: Een Design Sprint kan op verschillende momenten in het ontwerpproces worden ingezet. In de meeste gevallen wordt de Sprint ingezet om een project te kickstarten of doorstarten.
 
 ----
 
