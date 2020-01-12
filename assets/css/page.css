@@ -69,6 +69,10 @@ p {
     /*text-align: justify;*/
 }
 
+a {
+    color: #000000;
+}
+
 /*li {
     font-family: Gilroy-Bold;
     font-size: 20px;

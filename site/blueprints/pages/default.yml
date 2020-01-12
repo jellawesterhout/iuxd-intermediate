@@ -229,6 +229,38 @@ fields:
     label: skills_facilitator_p
     type: textarea
     size: small
+  links_title:
+    label: links_title
+    type: textarea
+    size: small
+  links_list_1:
+    label: links_list_1
+    type: textarea
+    size: small
+  links_list_2:
+    label: links_list_2
+    type: textarea
+    size: small
+  links_list_3:
+    label: links_list_3
+    type: textarea
+    size: small
+  links_list_4:
+    label: links_list_4
+    type: textarea
+    size: small
+  links_list_5:
+    label: links_list_5
+    type: textarea
+    size: small
+  links_list_1b:
+    label: links_list_1b
+    type: textarea
+    size: small
+  links_list_2b:
+    label: links_list_2b
+    type: textarea
+    size: small
   border_deelnemer:
     label: border_deelnemer
     type: textarea
@@ -259,6 +291,10 @@ fields:
     size: small
   title_verloop:
     label: title_verloop
+    type: textarea
+    size: small
+  p_verloop:
+    label: p_verloop
     type: textarea
     size: small
   

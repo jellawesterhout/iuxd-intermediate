@@ -414,6 +414,19 @@
           <p><?= $page->skills_facilitator_p () ?></p>
         </div>
       </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 44px; margin-bottom: 20px;"><?= $page->links_title () ?></h6>
+          <ul>
+            <li><a href="https://www.thesprintbook.com/"><?= $page->links_list_1 () ?></a></li>
+            <li><a href="https://www.thesprintbook.com/how"><?= $page->links_list_2 () ?></a></li>
+            <li><a href="https://www.gv.com/sprint/"><?= $page->links_list_3 () ?></a></li>
+            <li><a href="https://hike.one/update/your-first-design-sprint-do-these-3-things-first"><?= $page->links_list_4 () ?></a></li>
+            <li><a href="https://designsprintkit.withgoogle.com/introduction/overview"><?= $page->links_list_5 () ?></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
 
@@ -474,19 +487,48 @@
           <p><?= $page->skills_deelnemer_p () ?></p>
         </div>
       </div>
+
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <h6 style="margin-top: 44px; margin-bottom: 20px;"><?= $page->links_title () ?></h6>
+          <ul>
+            <li><a href="https://www.thesprintbook.com/how"><?= $page->links_list_1b () ?></a></li>
+            <li><a href="https://designsprintkit.withgoogle.com/introduction/overview"><?= $page->links_list_2b () ?></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!---------- T R E L L O ---------->
     <div class="hero">
       <div class="container margin flex">
         <div class="hero-left margin">
-          <div class="col">
+          <div class="col" style="padding-bottom: 100px;">
             <h5><?= $page->title_verloop() ?></h5>
+            <p><?= $page->p_verloop () ?></p>
+            <h6><a href="https://trello.com/b/zbIWs13g/google-sprint-iii" style="color: #6200EE; font-size: 17px;">Klik hier voor het Trellobord</a></h6>
           </div>
         </div>
         <div class="hero-right margin">
           <div class="col offset-md-1">
             <img src="assets/images/visual6.png" class="shadow-sm" style="width: 110%; border-radius: 3px;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!---------- F O O T E R ---------->
+    <div class="jumbotron jumbotron-fluid" style="padding-top: 100px; padding-bottom: 100px; margin-bottom: 0px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <img src="assets/images/footer1.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <img src="assets/images/footer2.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
+          </div>
+          <div class="col-3">
+            <img src="assets/images/footer3.png" style="width: 100%; margin-left: 30px; opacity: 1;"/>
           </div>
         </div>
       </div>
