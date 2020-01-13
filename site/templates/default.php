@@ -506,7 +506,7 @@
           <div class="col-md-12" style="padding-bottom: 150px;">
             <h5><?= $page->title_verloop() ?></h5>
             <p><?= $page->p_verloop () ?></p>
-            <h6><a href="https://trello.com/b/zbIWs13g/google-sprint-iii" style="color: #6200EE; font-size: 17px;">Klik hier voor het Trellobord</a></h6>
+            <h6><a href="https://trello.com/b/zbIWs13g/google-sprint-iii" target="_blank" style="color: #6200EE; font-size: 17px;">Klik hier voor het Trellobord</a></h6>
           </div>
         </div>
         <div class="hero-right margin">
