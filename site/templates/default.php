@@ -431,7 +431,7 @@
 
 
     <!---------- D E E L N E M E R ---------->
-    <div class="container targetdivs" id="deelnemer-div">
+    <div class="container targetdivs" id="deelnemer-div" style="display:none;" >
 
       <!--- B U T T O N S --->
       <div class="row" style="margin-bottom: 150px;">
@@ -511,7 +511,7 @@
         </div>
         <div class="hero-right margin">
           <div class="col-md-12 offset-md-1">
-            <img src="assets/images/visual6.png" class="shadow-sm" style="width: 110%; border-radius: 3px;"/>
+            <iframe src="https://trello.com/b/zbIWs13g.html" style="border-radius: 3px; width: 110%; height: 500px;" frameBorder="0"></iframe>
           </div>
         </div>
       </div>
@@ -584,6 +584,7 @@
       /**********************Change color of center aligned animated content small Circle  "END"************************************/
     
       /********** CHANGE CONTENT **********/
+      
       $("#btn1, #btn2").on("click", function(e){
         e.preventDefault();
         var target = $(this).data("target");

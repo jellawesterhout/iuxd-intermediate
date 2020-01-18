@@ -1,10 +1,16 @@
+body {
+    background-color: rgb(251, 251, 251);
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+}
+
 @font-face {
     font-family: "Gilroy";
-    src: url(../fonts/Gilroy-Light.otf) format("opentype");
-    src: url(../fonts/Gilroy-Regular.otf) format("opentype");
-    src: url(../fonts/Gilroy-Medium.otf) format("opentype");
-    src: url(../fonts/Gilroy-Bold.ttf) format("truetype");
-    src: url(../fonts/Gilroy-ExtraBold.otf) format("opentype");
+    src: url(../assets/fonts/Gilroy-Light.otf) format("opentype");
+    src: url(../assets/fonts/Gilroy-Regular.otf) format("opentype");
+    src: url(../assets/fonts/Gilroy-Medium.otf) format("opentype");
+    src: url(../assets/fonts/Gilroy-Bold.ttf) format("truetype");
+    src: url(../assets/fonts/Gilroy-ExtraBold.otf) format("opentype");
 }
 
 @font-face {
@@ -12,12 +18,6 @@
     src: url(../fonts/AvenirNext-Regular-08.ttf) format("truetype");
     src: url(../fonts/AvenirNext-Medium-06.ttf) format("truetype");
     src: url(../fonts/AvenirNext-Bold-01.ttf) format("truetype");    
-}
-
-body {
-    background-color: rgb(251, 251, 251);
-    font-family: Gilroy, sans-serif;
-    font-size: 18px;
 }
 
 h1 {
